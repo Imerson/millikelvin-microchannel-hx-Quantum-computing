@@ -1,0 +1,16 @@
+FoamFile
+{
+    version 2.0; format ascii;
+    class dictionary; location "constant/fluid"; object thermophysicalProperties;
+}
+// He-4 effective medium (identical all cases). kappa_eff=0.001 W/mK (Pe~70)
+thermoType
+{ type heRhoThermo; mixture pureMixture; transport const; thermo hConst;
+  equationOfState rhoConst; specie specie; energy sensibleEnthalpy; }
+mixture
+{
+    specie { molWeight 4.003; }
+    equationOfState { rho 145.0; }
+    thermodynamics { Cp 5.0; Hf 0; }
+    transport { mu 1e-6; Pr 5.000e-03; }
+}

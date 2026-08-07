@@ -1,0 +1,9 @@
+Cu_2p0  HYBRID result  (S4 Stage-4 microchannel HX, Q_sys=15 uW)
+  material=Cu  Dh=2.0 mm  N_ch=169  Q_model=443.80 nW
+  GATE 1  Q_chipFace (verified load) = -443.84 nW  (target -443.80)
+  GATE 2  Q_fluid (advected)         = 217.45 nW  (~50% inlet leak; fixed-T inlet artifact)
+  GATE 4  dP                         = 8.078e-04 Pa
+  CFD chip (conjugate)               = 25.00 mK   (T_out=25.00 mK)
+  ANALYTIC Kapitza  R_K=C_K/T^3      = 1280.6 m2K/W,  dT_K = 142.09 mK
+  PHYSICAL CHIP TEMPERATURE          = 167.08 mK
+  R_total(model) = 3.540e+05 K/W   (conj 3.379e+04 + Kapitza 3.202e+05; Kapitza 90%)

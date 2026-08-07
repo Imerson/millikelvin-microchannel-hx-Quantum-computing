@@ -1,0 +1,325 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| Stage 4 MXC Heat Exchanger — S4_MC_Cu_2p0                            |
+| Dh = 2.00 mm,  tw = 1.000 mm                                            |
+| Block: y=16.000 mm,  z=4.000 mm,  x=100 mm (flow direction)         |
+| BCs: chipFace=10mK (Krinner 2019),  hotPlate=20mK (Raicu 2025 Table 1)    |
+| Spec: Stage4_HX_OpenFOAM_Specification.docx §2.1 Table 2                  |
+\*---------------------------------------------------------------------------*/
+//
+// Cross-section (y-z plane):
+//   z=4.000mm |== hotPlate (20 mK) ==========================|
+//   z=3.000mm  |-- top of channels (2.00 mm) ------------|
+//   z=1.000mm  |-- bottom of channels ----------------------|
+//   z=0       |== chipFace (10 mK) =========================|
+//
+//   y [mm]: 0.000 1.000 3.000 4.000 6.000 7.000 9.000 10.000 12.000 13.000 15.000 16.000
+//
+// 5-channel model:  outer_wall | ch1..5 | inter-walls | outer_wall
+// Block topology identical to S4_MC_Cu_1p0 — only coordinates differ.
+// Channel cells: 20 ny x 20 nz x 60 nx = 24,000 per channel
+// Total ~208,320 cells (fluid + solid)
+//
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+
+convertToMeters 1;
+
+vertices
+(
+    // ---- x=0 (ix=0) ----
+    //  iz=0  z=0.0000 mm
+    (0         0             0           )  //  0
+    (0         1e-3          0           )  //  1
+    (0         3e-3          0           )  //  2
+    (0         4e-3          0           )  //  3
+    (0         6e-3          0           )  //  4
+    (0         7e-3          0           )  //  5
+    (0         9e-3          0           )  //  6
+    (0         1e-2          0           )  //  7
+    (0         1.2e-2        0           )  //  8
+    (0         1.3e-2        0           )  //  9
+    (0         1.5e-2        0           )  // 10
+    (0         1.6e-2        0           )  // 11
+    //  iz=1  z=1.0000 mm
+    (0         0             1e-3        )  // 12
+    (0         1e-3          1e-3        )  // 13
+    (0         3e-3          1e-3        )  // 14
+    (0         4e-3          1e-3        )  // 15
+    (0         6e-3          1e-3        )  // 16
+    (0         7e-3          1e-3        )  // 17
+    (0         9e-3          1e-3        )  // 18
+    (0         1e-2          1e-3        )  // 19
+    (0         1.2e-2        1e-3        )  // 20
+    (0         1.3e-2        1e-3        )  // 21
+    (0         1.5e-2        1e-3        )  // 22
+    (0         1.6e-2        1e-3        )  // 23
+    //  iz=2  z=3.0000 mm
+    (0         0             3e-3        )  // 24
+    (0         1e-3          3e-3        )  // 25
+    (0         3e-3          3e-3        )  // 26
+    (0         4e-3          3e-3        )  // 27
+    (0         6e-3          3e-3        )  // 28
+    (0         7e-3          3e-3        )  // 29
+    (0         9e-3          3e-3        )  // 30
+    (0         1e-2          3e-3        )  // 31
+    (0         1.2e-2        3e-3        )  // 32
+    (0         1.3e-2        3e-3        )  // 33
+    (0         1.5e-2        3e-3        )  // 34
+    (0         1.6e-2        3e-3        )  // 35
+    //  iz=3  z=4.0000 mm
+    (0         0             4e-3        )  // 36
+    (0         1e-3          4e-3        )  // 37
+    (0         3e-3          4e-3        )  // 38
+    (0         4e-3          4e-3        )  // 39
+    (0         6e-3          4e-3        )  // 40
+    (0         7e-3          4e-3        )  // 41
+    (0         9e-3          4e-3        )  // 42
+    (0         1e-2          4e-3        )  // 43
+    (0         1.2e-2        4e-3        )  // 44
+    (0         1.3e-2        4e-3        )  // 45
+    (0         1.5e-2        4e-3        )  // 46
+    (0         1.6e-2        4e-3        )  // 47
+
+    // ---- x=0.1 (ix=1) ----
+    //  iz=0  z=0.0000 mm
+    (1e-1      0             0           )  // 48
+    (1e-1      1e-3          0           )  // 49
+    (1e-1      3e-3          0           )  // 50
+    (1e-1      4e-3          0           )  // 51
+    (1e-1      6e-3          0           )  // 52
+    (1e-1      7e-3          0           )  // 53
+    (1e-1      9e-3          0           )  // 54
+    (1e-1      1e-2          0           )  // 55
+    (1e-1      1.2e-2        0           )  // 56
+    (1e-1      1.3e-2        0           )  // 57
+    (1e-1      1.5e-2        0           )  // 58
+    (1e-1      1.6e-2        0           )  // 59
+    //  iz=1  z=1.0000 mm
+    (1e-1      0             1e-3        )  // 60
+    (1e-1      1e-3          1e-3        )  // 61
+    (1e-1      3e-3          1e-3        )  // 62
+    (1e-1      4e-3          1e-3        )  // 63
+    (1e-1      6e-3          1e-3        )  // 64
+    (1e-1      7e-3          1e-3        )  // 65
+    (1e-1      9e-3          1e-3        )  // 66
+    (1e-1      1e-2          1e-3        )  // 67
+    (1e-1      1.2e-2        1e-3        )  // 68
+    (1e-1      1.3e-2        1e-3        )  // 69
+    (1e-1      1.5e-2        1e-3        )  // 70
+    (1e-1      1.6e-2        1e-3        )  // 71
+    //  iz=2  z=3.0000 mm
+    (1e-1      0             3e-3        )  // 72
+    (1e-1      1e-3          3e-3        )  // 73
+    (1e-1      3e-3          3e-3        )  // 74
+    (1e-1      4e-3          3e-3        )  // 75
+    (1e-1      6e-3          3e-3        )  // 76
+    (1e-1      7e-3          3e-3        )  // 77
+    (1e-1      9e-3          3e-3        )  // 78
+    (1e-1      1e-2          3e-3        )  // 79
+    (1e-1      1.2e-2        3e-3        )  // 80
+    (1e-1      1.3e-2        3e-3        )  // 81
+    (1e-1      1.5e-2        3e-3        )  // 82
+    (1e-1      1.6e-2        3e-3        )  // 83
+    //  iz=3  z=4.0000 mm
+    (1e-1      0             4e-3        )  // 84
+    (1e-1      1e-3          4e-3        )  // 85
+    (1e-1      3e-3          4e-3        )  // 86
+    (1e-1      4e-3          4e-3        )  // 87
+    (1e-1      6e-3          4e-3        )  // 88
+    (1e-1      7e-3          4e-3        )  // 89
+    (1e-1      9e-3          4e-3        )  // 90
+    (1e-1      1e-2          4e-3        )  // 91
+    (1e-1      1.2e-2        4e-3        )  // 92
+    (1e-1      1.3e-2        4e-3        )  // 93
+    (1e-1      1.5e-2        4e-3        )  // 94
+    (1e-1      1.6e-2        4e-3        )  // 95
+);
+
+blocks
+(
+    // ===== iz=0: bottom solid (chip-side)  nz=4 =====
+    hex ( 0  1 13 12  48 49 61 60) solid_wall ( 4  4 60) simpleGrading (1 1 1) // outer-L
+    hex ( 1  2 14 13  49 50 62 61) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch1
+    hex ( 2  3 15 14  50 51 63 62) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex ( 3  4 16 15  51 52 64 63) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch2
+    hex ( 4  5 17 16  52 53 65 64) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex ( 5  6 18 17  53 54 66 65) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch3
+    hex ( 6  7 19 18  54 55 67 66) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex ( 7  8 20 19  55 56 68 67) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch4
+    hex ( 8  9 21 20  56 57 69 68) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex ( 9 10 22 21  57 58 70 69) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch5
+    hex (10 11 23 22  58 59 71 70) solid_wall ( 4  4 60) simpleGrading (1 1 1) // outer-R
+    // ===== iz=1: channel layer  nz=20 =====
+    hex (12 13 25 24  60 61 73 72) solid_wall ( 4 20 60) simpleGrading (1 1 1) // left outer wall
+    hex (13 14 26 25  61 62 74 73) fluid_he   (20 20 60) simpleGrading (1 1 1) // CHANNEL 1
+    hex (14 15 27 26  62 63 75 74) solid_wall ( 4 20 60) simpleGrading (1 1 1) // inter-ch wall
+    hex (15 16 28 27  63 64 76 75) fluid_he   (20 20 60) simpleGrading (1 1 1) // CHANNEL 2
+    hex (16 17 29 28  64 65 77 76) solid_wall ( 4 20 60) simpleGrading (1 1 1) // inter-ch wall
+    hex (17 18 30 29  65 66 78 77) fluid_he   (20 20 60) simpleGrading (1 1 1) // CHANNEL 3
+    hex (18 19 31 30  66 67 79 78) solid_wall ( 4 20 60) simpleGrading (1 1 1) // inter-ch wall
+    hex (19 20 32 31  67 68 80 79) fluid_he   (20 20 60) simpleGrading (1 1 1) // CHANNEL 4
+    hex (20 21 33 32  68 69 81 80) solid_wall ( 4 20 60) simpleGrading (1 1 1) // inter-ch wall
+    hex (21 22 34 33  69 70 82 81) fluid_he   (20 20 60) simpleGrading (1 1 1) // CHANNEL 5
+    hex (22 23 35 34  70 71 83 82) solid_wall ( 4 20 60) simpleGrading (1 1 1) // right outer wall
+    // ===== iz=2: top solid (hot-plate-side)  nz=4 =====
+    hex (24 25 37 36  72 73 85 84) solid_wall ( 4  4 60) simpleGrading (1 1 1) // outer-L
+    hex (25 26 38 37  73 74 86 85) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch1
+    hex (26 27 39 38  74 75 87 86) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex (27 28 40 39  75 76 88 87) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch2
+    hex (28 29 41 40  76 77 89 88) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex (29 30 42 41  77 78 90 89) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch3
+    hex (30 31 43 42  78 79 91 90) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex (31 32 44 43  79 80 92 91) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch4
+    hex (32 33 45 44  80 81 93 92) solid_wall ( 4  4 60) simpleGrading (1 1 1) // wall
+    hex (33 34 46 45  81 82 94 93) solid_wall (20  4 60) simpleGrading (1 1 1) // under ch5
+    hex (34 35 47 46  82 83 95 94) solid_wall ( 4  4 60) simpleGrading (1 1 1) // outer-R
+);
+
+edges ();
+
+boundary
+(
+    inlet
+    {
+        type patch;
+        faces
+        (
+            ( 0 12 13  1)
+            ( 1 13 14  2)
+            ( 2 14 15  3)
+            ( 3 15 16  4)
+            ( 4 16 17  5)
+            ( 5 17 18  6)
+            ( 6 18 19  7)
+            ( 7 19 20  8)
+            ( 8 20 21  9)
+            ( 9 21 22 10)
+            (10 22 23 11)
+            (12 24 25 13)
+            (13 25 26 14)
+            (14 26 27 15)
+            (15 27 28 16)
+            (16 28 29 17)
+            (17 29 30 18)
+            (18 30 31 19)
+            (19 31 32 20)
+            (20 32 33 21)
+            (21 33 34 22)
+            (22 34 35 23)
+            (24 36 37 25)
+            (25 37 38 26)
+            (26 38 39 27)
+            (27 39 40 28)
+            (28 40 41 29)
+            (29 41 42 30)
+            (30 42 43 31)
+            (31 43 44 32)
+            (32 44 45 33)
+            (33 45 46 34)
+            (34 46 47 35)
+        );
+    }
+    outlet
+    {
+        type patch;
+        faces
+        (
+            (48 49 61 60)
+            (49 50 62 61)
+            (50 51 63 62)
+            (51 52 64 63)
+            (52 53 65 64)
+            (53 54 66 65)
+            (54 55 67 66)
+            (55 56 68 67)
+            (56 57 69 68)
+            (57 58 70 69)
+            (58 59 71 70)
+            (60 61 73 72)
+            (61 62 74 73)
+            (62 63 75 74)
+            (63 64 76 75)
+            (64 65 77 76)
+            (65 66 78 77)
+            (66 67 79 78)
+            (67 68 80 79)
+            (68 69 81 80)
+            (69 70 82 81)
+            (70 71 83 82)
+            (72 73 85 84)
+            (73 74 86 85)
+            (74 75 87 86)
+            (75 76 88 87)
+            (76 77 89 88)
+            (77 78 90 89)
+            (78 79 91 90)
+            (79 80 92 91)
+            (80 81 93 92)
+            (81 82 94 93)
+            (82 83 95 94)
+        );
+    }
+    chipFace
+    {
+        type wall;
+        faces
+        (
+            ( 0  1 49 48)
+            ( 1  2 50 49)
+            ( 2  3 51 50)
+            ( 3  4 52 51)
+            ( 4  5 53 52)
+            ( 5  6 54 53)
+            ( 6  7 55 54)
+            ( 7  8 56 55)
+            ( 8  9 57 56)
+            ( 9 10 58 57)
+            (10 11 59 58)
+        );
+    }
+    hotPlate
+    {
+        type wall;
+        faces
+        (
+            (36 84 85 37)
+            (37 85 86 38)
+            (38 86 87 39)
+            (39 87 88 40)
+            (40 88 89 41)
+            (41 89 90 42)
+            (42 90 91 43)
+            (43 91 92 44)
+            (44 92 93 45)
+            (45 93 94 46)
+            (46 94 95 47)
+        );
+    }
+    outerY0
+    {
+        type wall;
+        faces
+        (
+            ( 0 48 60 12)
+            (12 60 72 24)
+            (24 72 84 36)
+        );
+    }
+    outerY3
+    {
+        type wall;
+        faces
+        (
+            (11 23 71 59)
+            (23 35 83 71)
+            (35 47 95 83)
+        );
+    }
+);
+
+mergePatchPairs ();

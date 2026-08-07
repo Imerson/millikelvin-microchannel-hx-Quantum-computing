@@ -1,0 +1,22 @@
+FoamFile { version 2.0; format ascii; class dictionary; object topoSetDict; }
+actions
+(
+    // --- combined fluid cell set (all 5 channels) ---
+    { name cFluid; type cellSet; action new; source zoneToCell; zone domain1; }
+    { name cFluid; type cellSet; action add; source zoneToCell; zone domain2; }
+    { name cFluid; type cellSet; action add; source zoneToCell; zone domain3; }
+    { name cFluid; type cellSet; action add; source zoneToCell; zone domain4; }
+    { name cFluid; type cellSet; action add; source zoneToCell; zone domain5; }
+
+    // --- faces of all fluid cells ---
+    { name fFluid; type faceSet; action new; source cellToFace; set cFluid; option all; }
+
+    // --- cells touching those faces = fluid + first solid layer ---
+    { name cKap; type cellSet; action new; source faceToCell; set fFluid; option any; }
+    // --- remove fluid, leaving only the adjacent solid layer ---
+    { name cKap; type cellSet; action subtract; source cellToCell; set cFluid; }
+
+    // --- make kapitza_layer zone; remove those cells from solid_wall zone ---
+    { name kapitza_layer; type cellZoneSet; action new;      source setToCellZone; set cKap; }
+    { name solid_wall;    type cellZoneSet; action subtract; source setToCellZone; set cKap; }
+);

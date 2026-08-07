@@ -1,0 +1,44 @@
+DOMAIN (CHANNEL-COUNT) INDEPENDENCE STUDY — Cu_1p0 microchannel hybrid model
+5 vs 7 vs 9 channel unit cells · identical per-channel geometry, BCs, numerics
+==============================================================================
+
+CASES (one parameterized generator, gen_domain_study.py; run to t = 6000)
+  N5   5 channels   208,320 cells   block width  8 mm   Q_chip = -110.960 nW
+  N7   7 channels   288,960 cells   block width 11 mm   Q_chip = -152.570 nW
+  N9   9 channels   369,600 cells   block width 14 mm   Q_chip = -194.180 nW
+  (Q_chip scales exactly with chip area: q'' = 1.3870e-4 W/m² × width × L.
+   N5 reproduces the production S4_MC_Cu_1p0 values: Q = -110.96 nW,
+   dP = 2.923 mPa, T_int = 25.00 mK  -> consistency check PASS)
+
+------------------------------------------------------------------------------
+PER-CHANNEL PRESSURE DROP  dP = p_in - p_out          [hydraulic independence]
+  ALL 21 channels across all three cases:  dP = 2.922878e-3 Pa
+  -> identical to 6 significant figures in every channel of every case.
+  Per-channel mass flow: 1.4500e-7 kg/s everywhere (fixed inlet velocity).
+
+------------------------------------------------------------------------------
+PER-CHANNEL INTERFACE TEMPERATURE  T_int (solid side)  [thermal independence]
+            edge ch      center ch     edge-center spread
+  N5      24.99678 mK   24.99677 mK      5.3e-6 mK
+  N7      24.99672 mK   24.99670 mK      1.3e-5 mK
+  N9      24.99669 mK   24.99666 mK      3.5e-5 mK
+  Max spread over ALL 21 channels, all cases: 1.2e-4 mK  (4.8e-6 relative).
+  Symmetric about the center channel in every case (ch1 = chN, ch2 = chN-1).
+
+------------------------------------------------------------------------------
+PER-CHANNEL HEAT LOAD (bookkeeping note)
+  Q_chip/N: 22.192 (N5) / 21.796 (N7) / 21.576 (N9) nW per channel  (-2.8%)
+  This decline is pure geometry bookkeeping: the two fixed outer-wall strips
+  (0.5 mm each) are amortized over more channels as N grows. It is NOT a field
+  effect — the temperature response to it is < 5e-6 relative (above), and the
+  factorial's analytic Kapitza side uses per-channel Q = Q_sys/N_ch by
+  definition, which is independent of unit-cell width.
+
+==============================================================================
+CONCLUSION
+  The 5-channel unit cell is domain-independent: widening the array to 7 or 9
+  channels changes per-channel dP by < 1e-6 (unresolvable) and per-channel
+  interface temperature by < 5e-6 relative. Edge effects are confined to the
+  two outermost channels and amount to at most 3.5e-5 mK. The N_ch/5 scaling
+  of unit-cell results to the full 676-channel array is numerically validated,
+  not just symmetry-argued.

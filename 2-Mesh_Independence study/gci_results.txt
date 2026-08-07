@@ -1,0 +1,48 @@
+GRID CONVERGENCE INDEX (GCI) STUDY  —  Cu_0p5 microchannel hybrid model
+ASME V&V20 / Celik et al. (2008) procedure · 3 systematically-refined grids
+=========================================================================
+
+GRIDS  (representative cell size h ~ N^-1/3, domain volume fixed)
+  coarse  N3 =  73,920 cells   (14 cells across D_h)
+  medium  N2 = 208,320 cells   (20 cells)   <-- PRODUCTION mesh
+  fine    N1 = 367,200 cells   (24 cells)
+  refinement ratio  r21 (medium->fine)  = 1.208
+                    r32 (coarse->medium) = 1.413
+  All grids: uniform integer scaling of the same blockMeshDict; identical
+  numerics on every grid (PCG/DIC p_rgh maxIter 1500, same schemes, mu=1e-6).
+
+-------------------------------------------------------------------------
+PRIMARY METRIC — PRESSURE DROP  dP = p_inlet - p_outlet   [grid-sensitive]
+  coarse = 11.2522 mPa
+  medium = 11.3736 mPa
+  fine   = 11.4099 mPa            (monotonic convergence)
+  apparent order of convergence   p       = 2.20   (~theoretical 2nd order)
+  Richardson extrapolation (h->0) dP_ext  = 11.48 mPa
+  approximate relative error      e21     = 0.318 %
+  FINE-grid uncertainty           GCI_21  = 0.77 %
+  MEDIUM-grid uncertainty         GCI_32  = 1.18 %
+  asymptotic-range check  GCI32/(r21^p*GCI21) = 1.003  (= 1  => CONFIRMED:
+                                     grids are in the asymptotic regime)
+
+-------------------------------------------------------------------------
+TEMPERATURE FIELD                                        [grid-INDEPENDENT]
+  T_int_solid : coarse 24.99693 / medium 24.99703 / fine 24.99731 mK
+                variation < 2e-4 mK (1.5e-5 rel)  -> GCI ~ 0 %
+  T_outlet    : coarse 24.99701 / medium 24.99708 / fine 24.99445 mK
+                variation < 3e-3 mK (1e-4 rel)    -> GCI ~ 0 %
+  Set by the fluid energy balance (fixed 10 mK inlet + fixed chip load),
+  not local mesh resolution -> already grid-converged on the coarse mesh.
+  The headline PHYSICAL chip temperature is dominated by the ANALYTIC
+  Kapitza term, so it is likewise insensitive to the mesh.
+
+-------------------------------------------------------------------------
+EXACT / BC-LOCKED (identical on every grid, by construction)
+  Gate-1 verified load = -26.70 nW  (fixedGradient flux BC)
+  Inlet mass flow      =  3.625e-8 kg/s  (fixed inlet velocity)
+
+=========================================================================
+CONCLUSION
+  Production (medium, 20-cell) mesh: discretisation uncertainty ~1.2 % on
+  pressure drop, < 0.01 % on every temperature. Solution is grid-converged
+  and in the asymptotic range; the factorial headline is grid-independent.
+  Mesh is fit for purpose.

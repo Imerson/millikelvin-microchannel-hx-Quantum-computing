@@ -1,0 +1,102 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "6000/uniform/functionObjects";
+    object      functionObjectProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+cdf7e925f5746741c316f5fbcf39ad0dfca90775
+{
+    wallHeatFlux_solid
+    {
+        scalar
+        {
+            min(chipFace)   -0.0001387000212;
+            max(chipFace)   -0.0001387000212;
+            int(chipFace)   -1.109600169600043e-07;
+        }
+    }
+    Q_chipFace
+    {
+        scalar
+        {
+            areaIntegrate(chipFace,wallHeatFlux) -1.109600169600043e-07;
+        }
+    }
+    T_int_solid
+    {
+        scalar
+        {
+            areaAverage(solid_wall_to_domain1,T) 0.02499542241388988;
+        }
+    }
+    T_int_fluid
+    {
+        scalar
+        {
+            areaAverage(domain1_to_solid_wall,T) 0.02499542241391201;
+        }
+    }
+    T_chip_max
+    {
+        scalar
+        {
+            min(T)          0.02498918721594569;
+            max(T)          0.02499570345163846;
+        }
+        label
+        {
+            min(T)_cell     44196;
+            min(T)_processor 0;
+            max(T)_cell     72709;
+            max(T)_processor 0;
+        }
+        vector
+        {
+            min(T)_position ( 0.00083333335 0.0045 0.000975 );
+            max(T)_position ( 0.034166666 0.003975 0.0019375 );
+        }
+    }
+    T_outlet_fluid
+    {
+        scalar
+        {
+            weightedAverage(outlet,T) 0.02499569096227315;
+        }
+    }
+    massFlowInlet
+    {
+        scalar
+        {
+            sum(inlet,phi)  -1.450000000000003e-07;
+        }
+    }
+    p_inlet
+    {
+        scalar
+        {
+            areaAverage(inlet,p_rgh) 0.002922877890283548;
+        }
+    }
+    p_outlet
+    {
+        scalar
+        {
+            areaAverage(outlet,p_rgh) 0;
+        }
+    }
+}
+
+
+// ************************************************************************* //

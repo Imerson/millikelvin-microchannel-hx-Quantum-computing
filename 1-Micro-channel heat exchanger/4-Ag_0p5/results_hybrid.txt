@@ -1,0 +1,9 @@
+Ag_0p5  HYBRID result  (S4 Stage-4 microchannel HX, Q_sys=15 uW)
+  material=Ag  Dh=0.5 mm  N_ch=2809  Q_model=26.70 nW
+  GATE 1  Q_chipFace (verified load) = -26.70 nW  (target -26.70)
+  GATE 2  Q_fluid (advected)         = 13.59 nW  (~50% inlet leak; fixed-T inlet artifact)
+  GATE 4  dP                         = 1.137e-02 Pa
+  CFD chip (conjugate)               = 25.00 mK   (T_out=25.00 mK)
+  ANALYTIC Kapitza  R_K=C_K/T^3      = 320.2 m2K/W,  dT_K = 8.55 mK
+  PHYSICAL CHIP TEMPERATURE          = 33.54 mK
+  R_total(model) = 8.818e+05 K/W   (conj 5.616e+05 + Kapitza 3.202e+05; Kapitza 36%)

@@ -1,0 +1,11 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant/fluid_he";
+    object      turbulenceProperties;
+}
+
+// Re = rho * U * Dh / mu = 145 * 1e-3 * 1e-3 / 1e-7 = 1.45 — fully laminar
+simulationType  laminar;

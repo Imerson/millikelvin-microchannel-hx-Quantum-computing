@@ -1,0 +1,222 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+FoamFile
+{
+    version         2;
+    format          ascii;
+    class           dictionary;
+    object          controlDict;
+}
+
+application     chtMultiRegionSimpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         5000;
+
+deltaT          1;
+
+writeControl    timeStep;
+
+writeInterval   1000;
+
+purgeWrite      3;
+
+writeFormat     ascii;
+
+writePrecision  8;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    T_int_solid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          solid_wall;
+        regionType      patch;
+        name            solid_wall_to_domain1;
+        operation       areaAverage;
+        fields          ( T );
+    }
+    T_int_fluid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            domain1_to_solid_wall;
+        operation       areaAverage;
+        fields          ( T );
+    }
+    T_chip_max
+    {
+        type            fieldMinMax;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        region          solid_wall;
+        mode            magnitude;
+        fields          ( T );
+    }
+    T_outlet_fluid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            outlet;
+        operation       weightedAverage;
+        weightField     phi;
+        fields          ( T );
+    }
+    T_inlet_fluid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            inlet;
+        operation       areaAverage;
+        fields          ( T );
+    }
+    massFlowInlet
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            inlet;
+        operation       sum;
+        fields          ( phi );
+    }
+    p_inlet
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            inlet;
+        operation       areaAverage;
+        fields          ( p_rgh );
+    }
+    p_outlet
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            outlet;
+        operation       areaAverage;
+        fields          ( p_rgh );
+    }
+    wallHeatFlux_fluid
+    {
+        type            wallHeatFlux;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        region          domain1;
+        patches         ( domain1_to_solid_wall );
+    }
+    q_interface
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          domain1;
+        regionType      patch;
+        name            domain1_to_solid_wall;
+        operation       areaIntegrate;
+        fields          ( wallHeatFlux );
+    }
+    T_chipFace
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          solid_wall;
+        regionType      patch;
+        name            chipFace;
+        operation       areaAverage;
+        fields          ( T );
+    }
+    T_hotPlate
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   100;
+        log             true;
+        writeFields     false;
+        region          solid_wall;
+        regionType      patch;
+        name            hotPlate;
+        operation       areaAverage;
+        fields          ( T );
+    }
+    residuals
+    {
+        type            solverInfo;
+        libs            ( utilityFunctionObjects );
+        writeControl    timeStep;
+        writeInterval   10;
+        fields          ( h U p_rgh );
+    }
+}
+
+
+// ************************************************************************* //
