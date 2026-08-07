@@ -1,6 +1,6 @@
 # Millikelvin Microchannel Heat Exchanger — Conjugate CFD for Quantum-Computing Cryostats
 
-OpenFOAM models, verification studies, and analysis scripts from the MEng dissertation
+OpenFOAM models, verification studies, and analysis scripts from the Msc. dissertation
 **"Design and CFD Assessment of a Microchannel Mixing-Chamber Heat Exchanger for
 Millikelvin Quantum-Computing Cryostats"** (Imerson Joao, University of Oxford).
 
