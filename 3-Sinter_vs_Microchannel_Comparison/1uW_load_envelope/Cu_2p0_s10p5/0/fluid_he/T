@@ -1,0 +1,47 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| He-4 temperature field                                                       |
+| Spec §5.1 Table 10 & §5.4                                                   |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0/fluid_he";
+    object      T;
+}
+
+dimensions      [ 0 0 0 1 0 0 0 ];
+
+internalField   uniform 0.090;     // T_mean = 55 mK initial guess
+
+boundaryField
+{
+    inlet
+    {
+        type            fixedValue;
+        value           uniform 0.080;   // He-4 enters at 80 mK (Spec Table 10)
+    }
+
+    outlet
+    {
+        type            zeroGradient;    // thermally developed exit
+    }
+
+    // Kapitza resistance BC — solid/fluid coupled interface
+    // Virtual layer: delta = 1e-6 m, kappa_K = delta/R_K = 1e-6/120.1 = 8.33e-9 W/m·K
+    // R_K(Cu) = C_K/T^3 = 0.020/0.055^3 = 120.1 K·m²/W at T_mean = 55 mK
+    // Spec §5.3 & Table 9 — MUST match solid_wall/T kappaLayers exactly
+    fluid_he_to_solid_wall
+    {
+        type            compressible::turbulentTemperatureCoupledBaffleMixed;
+        Tnbr            T;
+        kappaMethod     fluidThermo;
+        thicknessLayers ( 1e-6 );         // 1 µm virtual Kapitza layer
+        kappaLayers     ( 8.33e-9 );      // Cu: kappa_K = 8.33e-9 W/m·K
+        value           uniform 0.090;
+    }
+
+    // Lateral unit-cell faces: not present in fluid_he (channel block is internal)
+    // chipFace, hotPlate, outerY0, outerY3 belong to solid_wall only
+}

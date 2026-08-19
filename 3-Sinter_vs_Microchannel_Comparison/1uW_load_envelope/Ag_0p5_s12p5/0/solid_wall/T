@@ -1,0 +1,41 @@
+FoamFile
+{
+    version 2.0; format ascii;
+    class volScalarField; location "0/solid_wall"; object T;
+}
+dimensions [0 0 0 1 0 0 0];
+internalField uniform 0.0125;
+boundaryField
+{
+    chipFace { type fixedGradient; gradient uniform -4.831705e-07; }
+    hotPlate { type zeroGradient; }
+    outerY0 { type zeroGradient; }
+    outerY3 { type zeroGradient; }
+    inlet { type zeroGradient; }
+    outlet { type zeroGradient; }
+    solid_wall_to_domain1
+    {
+        type compressible::turbulentTemperatureCoupledBaffleMixed;
+        Tnbr T; kappaMethod solidThermo; value uniform 0.02;
+    }
+    solid_wall_to_domain2
+    {
+        type compressible::turbulentTemperatureCoupledBaffleMixed;
+        Tnbr T; kappaMethod solidThermo; value uniform 0.02;
+    }
+    solid_wall_to_domain3
+    {
+        type compressible::turbulentTemperatureCoupledBaffleMixed;
+        Tnbr T; kappaMethod solidThermo; value uniform 0.02;
+    }
+    solid_wall_to_domain4
+    {
+        type compressible::turbulentTemperatureCoupledBaffleMixed;
+        Tnbr T; kappaMethod solidThermo; value uniform 0.02;
+    }
+    solid_wall_to_domain5
+    {
+        type compressible::turbulentTemperatureCoupledBaffleMixed;
+        Tnbr T; kappaMethod solidThermo; value uniform 0.02;
+    }
+}

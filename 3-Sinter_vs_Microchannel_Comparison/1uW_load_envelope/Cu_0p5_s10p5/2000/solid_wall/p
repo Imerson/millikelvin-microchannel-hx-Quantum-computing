@@ -1,0 +1,72 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "2000/solid_wall";
+    object      p;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -1 -2 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    chipFace
+    {
+        type            zeroGradient;
+    }
+    hotPlate
+    {
+        type            zeroGradient;
+    }
+    outerY0
+    {
+        type            zeroGradient;
+    }
+    outerY3
+    {
+        type            zeroGradient;
+    }
+    solid_wall_to_domain5
+    {
+        type            zeroGradient;
+    }
+    solid_wall_to_domain3
+    {
+        type            zeroGradient;
+    }
+    solid_wall_to_domain1
+    {
+        type            zeroGradient;
+    }
+    solid_wall_to_domain4
+    {
+        type            zeroGradient;
+    }
+    solid_wall_to_domain2
+    {
+        type            zeroGradient;
+    }
+}
+
+
+// ************************************************************************* //

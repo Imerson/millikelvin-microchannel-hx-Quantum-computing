@@ -21,6 +21,7 @@ verified CFD factorial, two verification studies, and an analytic benchmark.
 | Area lever | ΔT_K ∝ 1/A_wet, at sub-pascal hydraulic cost |
 | Best case: **silver, D_h = 0.5 mm** | **chip at 33.5 mK** under the full 15 µW load (upper bound) |
 | Sinter benchmark | microchannel wins conductance-per-pumping-power by **≈2.4×10⁴**; sinter keeps raw conductance |
+| Low-load envelope (1 µW, CFD-verified) | Ag 0.5 mm at **≈17.7 mK**; Chapter 3 low-load table reproduced; conjugate level shown degenerate at weak load |
 | Mesh verification (GCI) | ≈1.2% ΔP uncertainty on the production mesh, asymptotic range confirmed |
 | Unit-cell verification | per-channel ΔP identical to 6 significant figures across 5/7/9-channel domains |
 
@@ -30,7 +31,7 @@ verified CFD factorial, two verification studies, and an analytic benchmark.
 |---|---|
 | [`1-Micro-channel heat exchanger/`](1-Micro-channel%20heat%20exchanger/README.md) | The six-case factorial (Cu/Ag × 0.5/1.0/2.0 mm): complete converged OpenFOAM cases, each with its own README (methodology, assumptions, verification gates, caveats, conclusions) |
 | [`2-Mesh_Independence study/`](2-Mesh_Independence%20study/README.md) | Grid-convergence study (ASME/Celik GCI, three grids) + [domain-independence study](2-Mesh_Independence%20study/4-Domain_Independence/README.md) (5/7/9-channel unit cells) |
-| [`3-Sinter_vs_Microchannel_Comparison/`](3-Sinter_vs_Microchannel_Comparison/README.md) | Analytic benchmark vs sintered silver: Darcy/Kozeny–Carman hydraulics, conductance-per-pumping-power figure of merit, charts + live Excel workbook |
+| [`3-Sinter_vs_Microchannel_Comparison/`](3-Sinter_vs_Microchannel_Comparison/README.md) | Analytic benchmark vs sintered silver: Darcy/Kozeny–Carman hydraulics, conductance-per-pumping-power figure of merit, charts + live Excel workbook; [`1uW_load_envelope/`](3-Sinter_vs_Microchannel_Comparison/1uW_load_envelope/README.md) — the CFD-verified 1 µW closure (12 cases) |
 | [`Figure_scripts/`](Figure_scripts/README.md) | The Python/ParaView scripts that generate every data-driven figure of the dissertation, organised by chapter |
 
 ## The method in one paragraph

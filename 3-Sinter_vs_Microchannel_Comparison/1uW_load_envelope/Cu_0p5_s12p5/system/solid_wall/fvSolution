@@ -1,0 +1,35 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system/solid_wall";
+    object      fvSolution;
+}
+
+solvers
+{
+    h
+    {
+        solver          PCG;
+        preconditioner  DIC;
+        tolerance       1e-10;
+        relTol          0.01;
+    }
+}
+
+SIMPLE
+{
+    residualControl
+    {
+        h               1e-9;
+    }
+}
+
+relaxationFactors
+{
+    equations
+    {
+        h               0.7;
+    }
+}

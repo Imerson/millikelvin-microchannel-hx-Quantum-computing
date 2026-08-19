@@ -1,0 +1,71 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system/fluid_he";
+    object      fvSolution;
+}
+
+// Spec §6.4
+
+solvers
+{
+    p_rgh
+    {
+        solver          PCG;
+        preconditioner  DIC;
+        tolerance       1e-8;
+        relTol          0.01;
+    }
+
+    p_rghFinal
+    {
+        $p_rgh;
+        relTol          0;
+    }
+
+    U
+    {
+        solver          PBiCGStab;
+        preconditioner  DILU;
+        tolerance       1e-8;
+        relTol          0.01;
+    }
+
+    h
+    {
+        solver          PBiCGStab;
+        preconditioner  DILU;
+        tolerance       1e-8;
+        relTol          0.01;
+    }
+}
+
+SIMPLE
+{
+    momentumPredictor   yes;
+    nNonOrthogonalCorrectors 2;
+    pRefCell            0;
+    pRefValue           0;
+
+    residualControl
+    {
+        p_rgh           1e-7;
+        U               1e-7;
+        h               1e-7;
+    }
+}
+
+relaxationFactors
+{
+    fields
+    {
+        p_rgh           0.3;
+    }
+    equations
+    {
+        U               0.5;
+        h               0.5;
+    }
+}

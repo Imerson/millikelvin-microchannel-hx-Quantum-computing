@@ -1,0 +1,52 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| He-4 effective medium — identical for all 18 cases                          |
+| Spec §3.1 Table 6                                                            |
+| Below T_lambda=2.17 K He-4 is superfluid. Standard solvers cannot model     |
+| superfluidity; the effective medium approximates quantum thermal transport:  |
+|   kappa_eff = 100 W/m·K  (conservative superfluid conductivity floor)       |
+|   mu_eff    = 1e-7 Pa·s  (residual normal-fluid component at ~100 mK)       |
+| This gives Re << 1, confirming laminar conduction-dominated flow.            |
+| Sensitivity runs at kappa_eff = 10 and 1000 W/m·K are recommended.          |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant/fluid_he";
+    object      thermophysicalProperties;
+}
+
+thermoType
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState rhoConst;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+mixture
+{
+    specie
+    {
+        molWeight   4.003;        // He-4 [g/mol]
+    }
+    equationOfState
+    {
+        rho         145.0;        // He-4 liquid at saturation, T < 2 K [kg/m³]
+    }
+    thermodynamics
+    {
+        Cp          5.0;          // Effective c_p [J/kg·K] — mean 10-100 mK
+        Hf          0.0;
+    }
+    transport
+    {
+        mu          1e-7;         // mu_eff: residual normal fluid [Pa·s]
+        Pr          5e-9;         // Pr_eff = mu*Cp/kappa = 1e-7*5/100 << 1
+                                  // Confirms conduction-dominated regime
+    }
+}

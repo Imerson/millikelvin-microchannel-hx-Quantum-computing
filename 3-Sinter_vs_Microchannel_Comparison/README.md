@@ -87,6 +87,20 @@ temperature-independent, so the ratio cancels temperature too.
    streams of the internal step exchangers, sinters remain the established solution — the
    He-II argument does not extend there without separate analysis.)
 
+## 1 µW load envelope — CFD-verified low-load closure
+
+The load-set crossover in Conclusion 4 rests on the microchannel holding the 10–20 mK band at
+*low-microwatt* chip loads. That claim was originally an analytic extrapolation of the 15 µW
+factorial; it is now **CFD-verified**. [`1uW_load_envelope/`](1uW_load_envelope/README.md)
+holds the 12 OpenFOAM runs (six geometries × two cold seeds) at Q_sys = 1 µW, the
+comparison table (`comparison_1uW.txt/.csv`), the generator script and the bracket runner.
+Result: Ag 0.5 mm at ≈17.7 mK, Ag 1.0 mm marginal at ≈24.9 mK, every copper case above the
+band — the Chapter 3 low-load table reproduced to the millikelvin. The two-seed bracket also
+demonstrates that the conjugate temperature *level* is undetermined at 1 µW (segregated-solver
+level degeneracy), so T_int there comes from the fluid energy balance (11.0 mK); load,
+hydraulics and coupling come from the solver. Any earlier analytic-only 1 µW assessment is
+superseded by that folder.
+
 ## Files
 
 - `analysis.py` — full computation, sanity checks, and figure generation (run it).
@@ -96,6 +110,7 @@ temperature-independent, so the ratio cancels temperature too.
 - `fig_pumping.png` — pumping power at matched throughput.
 - `fig_FOM.png` — the figure of merit (the microchannel's win).
 - `fig_FOM_vs_velocity.png` — demonstration that the FOM ratio is velocity-independent.
+- `1uW_load_envelope/` — CFD-verified 1 µW closure (12 cases, table, scripts, README).
 
 ## References
 1. H. Nakagawa, "Heat exchange performance of sintered fine silver powders in ultra-low

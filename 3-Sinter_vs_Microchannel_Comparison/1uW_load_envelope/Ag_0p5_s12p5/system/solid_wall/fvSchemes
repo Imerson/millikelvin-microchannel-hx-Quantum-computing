@@ -1,0 +1,17 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system/solid_wall";
+    object      fvSchemes;
+}
+
+// Solid: pure conduction — only laplacian scheme matters
+
+ddtSchemes      { default steadyState; }
+gradSchemes     { default Gauss linear; }
+divSchemes      { default none; }
+laplacianSchemes { default Gauss linear corrected; }
+interpolationSchemes { default linear; }
+snGradSchemes   { default corrected; }

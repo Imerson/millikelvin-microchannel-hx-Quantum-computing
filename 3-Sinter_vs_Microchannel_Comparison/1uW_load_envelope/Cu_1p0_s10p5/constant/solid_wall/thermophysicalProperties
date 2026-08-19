@@ -1,0 +1,16 @@
+FoamFile
+{
+    version 2.0; format ascii;
+    class dictionary; location "constant/solid_wall"; object thermophysicalProperties;
+}
+// Cu solid — HYBRID: constant kappa (near-isothermal solid; Kapitza applied analytically)
+thermoType
+{ type heSolidThermo; mixture pureMixture; transport constIso; thermo hConst;
+   equationOfState rhoConst; specie specie; energy sensibleEnthalpy; }
+mixture
+{
+    specie { molWeight 63.546; }
+    equationOfState { rho 8960.0; }
+    thermodynamics { Cp 0.40; Hf 0; }
+    transport { kappa 13.0800; }   // constant; gradient computed from this same kappa
+}

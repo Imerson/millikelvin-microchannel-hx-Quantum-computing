@@ -1,0 +1,172 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+FoamFile
+{
+    version         2;
+    format          ascii;
+    class           dictionary;
+    object          controlDict;
+}
+
+application     chtMultiRegionSimpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         2000;
+
+deltaT          1;
+
+writeControl    timeStep;
+
+writeInterval   2000;
+
+purgeWrite      1;
+
+writeFormat     ascii;
+
+writePrecision  8;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    wallHeatFlux_solid
+    {
+        type            wallHeatFlux;
+        libs            ( fieldFunctionObjects );
+        region          solid_wall;
+        patches         ( chipFace );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+    }
+    Q_chipFace
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          solid_wall;
+        regionType      patch;
+        name            chipFace;
+        operation       areaIntegrate;
+        fields          ( wallHeatFlux );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+    T_int_solid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          solid_wall;
+        regionType      patch;
+        name            solid_wall_to_domain1;
+        operation       areaAverage;
+        fields          ( T );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+    T_int_fluid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          domain1;
+        regionType      patch;
+        name            domain1_to_solid_wall;
+        operation       areaAverage;
+        fields          ( T );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+    T_chip_max
+    {
+        type            fieldMinMax;
+        libs            ( fieldFunctionObjects );
+        region          solid_wall;
+        mode            magnitude;
+        fields          ( T );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+    }
+    T_outlet_fluid
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          domain1;
+        regionType      patch;
+        name            outlet;
+        operation       weightedAverage;
+        weightField     phi;
+        fields          ( T );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+    massFlowInlet
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          domain1;
+        regionType      patch;
+        name            inlet;
+        operation       sum;
+        fields          ( phi );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+    p_inlet
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          domain1;
+        regionType      patch;
+        name            inlet;
+        operation       areaAverage;
+        fields          ( p_rgh );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+    p_outlet
+    {
+        type            surfaceFieldValue;
+        libs            ( fieldFunctionObjects );
+        region          domain1;
+        regionType      patch;
+        name            outlet;
+        operation       areaAverage;
+        fields          ( p_rgh );
+        writeControl    timeStep;
+        writeInterval   200;
+        log             true;
+        writeFields     false;
+    }
+}
+
+
+// ************************************************************************* //

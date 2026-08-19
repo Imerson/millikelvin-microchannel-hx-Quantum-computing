@@ -1,0 +1,34 @@
+S4 Stage-4 Microchannel HX — 1 uW LOAD ENVELOPE (hybrid closure, same as 15 uW: R_K=C_K/T^3)
+Q_sys = 1 uW; Q_model = Q_sys*5/N_ch verified by CFD at chipFace (Gate 1). T_int from fluid energy balance
+(T_bath + f_adv*Q_model/(5 mdot c_p), f_adv = advected fraction measured in the 15 uW case, Gate 2).
+
+case   mat  Dh   N_ch   Q_mod   Gate1_1uW  f_adv  T_int(EB)  R_K        dT_K    T_chip  R_total    Kap%   dP
+              mm          nW      nW              mK         m2K/W      mK      mK      K/W             Pa
+------------------------------------------------------------------------------------------------------------
+Cu_0p5 Cu   0.5  2809    1.78     1.780  0.509    11.000    15027.1   26.75   37.75  1.559e+07    96  1.137e-02
+Cu_1p0 Cu   1.0   676    7.40     7.397  0.490    11.000    15027.6   55.58   66.58  7.649e+06    98  2.923e-03
+Cu_2p0 Cu   2.0   169   29.59    29.589  0.490    11.000    15027.7  111.15  122.15  3.791e+06    99  8.078e-04
+Ag_0p5 Ag   0.5  2809    1.78     1.780  0.509    11.000     3756.9    6.69   17.69  4.319e+06    87  1.137e-02
+Ag_1p0 Ag   1.0   676    7.40     7.397  0.490    11.000     3757.0   13.89   24.89  2.014e+06    93  2.923e-03
+Ag_2p0 Ag   2.0   169   29.59    29.589  0.490    11.000     3757.0   27.79   38.79  9.730e+05    97  8.078e-04
+
+CFD BRACKET EVIDENCE (two solid seeds, 2000 iterations each):
+case    Gate1: 1uW/15uW ratio   dP: 1uW vs 15uW        T_int seed 10.5 -> end   seed 12.5 -> end   (level undetermined)
+Cu_0p5  0.06667 (=1/15)      1.1374e-02 / 1.1374e-02   10.4999->10.4999 mK   12.4996->12.4995 mK
+Cu_1p0  0.06667 (=1/15)      2.9229e-03 / 2.9229e-03   10.4999->10.4999 mK   12.4996->12.4995 mK
+Cu_2p0  0.06667 (=1/15)      8.0781e-04 / 8.0781e-04   10.4999->10.4999 mK   12.4996->12.4995 mK
+Ag_0p5  0.06667 (=1/15)      1.1374e-02 / 1.1374e-02   10.4999->10.4999 mK   12.4994->12.4993 mK
+Ag_1p0  0.06667 (=1/15)      2.9229e-03 / 2.9229e-03   10.4999->10.4999 mK   12.4994->12.4993 mK
+Ag_2p0  0.06667 (=1/15)      8.0781e-04 / 8.0781e-04   10.4999->10.4998 mK   12.4994->12.4993 mK
+
+READING:
+ - CFD at 1 uW verifies the load (Gate 1 = exactly 1/15 of the 15 uW value) and the hydraulics (dP unchanged:
+   the flow does not see the load). Interface remains coupled and isothermal (solid = fluid side).
+ - The conjugate temperature LEVEL is undetermined at 1 uW: T_int stays at whichever seed it is given
+   (moves < 1 uK in 2000 it, both seeds). At 15 uW the ~15 mK fluid warming anchors the level; at 1 uW the
+   ~1 mK warming cannot, against a 13 W/mK solid coupled through a 1e-3 W/mK fluid. This is the same
+   level-mode degeneracy identified for the meshed-Kapitza case, reappearing at weak load.
+ - The closure therefore uses the energy-balance T_int (the quantity that anchors the level at 15 uW),
+   which is a physics statement, not a CFD output; the CFD run is what justifies using it.
+ - Steep R_K ~ T^-3 at the colder interface makes the low-load regime unforgiving: only Ag_0p5 sits in the
+   10-20 mK band; Ag_1p0 marginal; every Cu case exceeds it.

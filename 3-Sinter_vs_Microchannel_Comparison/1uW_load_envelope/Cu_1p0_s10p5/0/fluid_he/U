@@ -1,0 +1,36 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| He-4 velocity field                                                          |
+| Spec §5.2 — U_in = 1 mm/s representative He-4 circulation rate              |
+| Re = rho*U*Dh/mu = 145*1e-3*1e-3/1e-7 = 1.45 — fully laminar               |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    location    "0/fluid_he";
+    object      U;
+}
+
+dimensions      [ 0 1 -1 0 0 0 0 ];
+
+internalField   uniform (0.001 0 0);    // 1 mm/s in x (flow) direction
+
+boundaryField
+{
+    inlet
+    {
+        type            fixedValue;
+        value           uniform (0.001 0 0);
+    }
+
+    outlet
+    {
+        type            zeroGradient;
+    }
+
+    fluid_he_to_solid_wall
+    {
+        type            noSlip;
+    }
+}

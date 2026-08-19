@@ -1,0 +1,113 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       polyBoundaryMesh;
+    location    "constant/solid_wall/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+11
+(
+    inlet
+    {
+        type            patch;
+        nFaces          1472;
+        startFace       242368;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          1472;
+        startFace       243840;
+    }
+    chipFace
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7440;
+        startFace       245312;
+    }
+    hotPlate
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          7440;
+        startFace       252752;
+    }
+    outerY0
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1680;
+        startFace       260192;
+    }
+    outerY3
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          1680;
+        startFace       261872;
+    }
+    solid_wall_to_domain5
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          4800;
+        startFace       263552;
+        sampleMode      nearestPatchFace;
+        sampleRegion    domain5;
+        samplePatch     domain5_to_solid_wall;
+    }
+    solid_wall_to_domain3
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          4800;
+        startFace       268352;
+        sampleMode      nearestPatchFace;
+        sampleRegion    domain3;
+        samplePatch     domain3_to_solid_wall;
+    }
+    solid_wall_to_domain1
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          4800;
+        startFace       273152;
+        sampleMode      nearestPatchFace;
+        sampleRegion    domain1;
+        samplePatch     domain1_to_solid_wall;
+    }
+    solid_wall_to_domain4
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          4800;
+        startFace       277952;
+        sampleMode      nearestPatchFace;
+        sampleRegion    domain4;
+        samplePatch     domain4_to_solid_wall;
+    }
+    solid_wall_to_domain2
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          4800;
+        startFace       282752;
+        sampleMode      nearestPatchFace;
+        sampleRegion    domain2;
+        samplePatch     domain2_to_solid_wall;
+    }
+)
+
+// ************************************************************************* //

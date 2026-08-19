@@ -1,0 +1,1500 @@
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505596e-09, Final residual = 9.6505596e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588954e-08, global = -7.045596e-10, cumulative = -1.3718594e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9411648e-16, Final residual = 7.9411648e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3060541e-14, Final residual = 4.3060541e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3522241e-14, Final residual = 4.3522241e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4608629e-06, Final residual = 1.8022643e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532262e-09, Final residual = 9.6532262e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532262e-09, Final residual = 9.6532262e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532262e-09, Final residual = 9.6532262e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592987e-08, global = 1.2998384e-10, cumulative = -1.3717294e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.0004287085, Final residual = 1.1671824e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 538.6 s  ClockTime = 583 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1980
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9241591e-16, Final residual = 7.9241591e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3834062e-14, Final residual = 4.3834062e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3685045e-14, Final residual = 4.3685045e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4613806e-06, Final residual = 1.8011565e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233199e-09, Final residual = 9.8233199e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233199e-09, Final residual = 9.8233199e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233199e-09, Final residual = 9.8233199e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850142e-08, global = -6.7301846e-11, cumulative = -1.3717967e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.025215e-16, Final residual = 8.025215e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3903187e-14, Final residual = 4.3903187e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3821129e-14, Final residual = 4.3821129e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1714127e-06, Final residual = 1.5961735e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647119e-09, Final residual = 8.8647119e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647119e-09, Final residual = 8.8647119e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647119e-09, Final residual = 8.8647119e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.0218902e-10, cumulative = -1.3718989e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8530932e-16, Final residual = 7.8530932e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3619449e-14, Final residual = 4.3619449e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4066158e-14, Final residual = 4.4066158e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0064686e-06, Final residual = 1.4793831e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089386e-09, Final residual = 9.0089386e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089386e-09, Final residual = 9.0089386e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089386e-09, Final residual = 9.0089386e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619024e-08, global = -1.3414979e-10, cumulative = -1.372033e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9037398e-16, Final residual = 7.9037398e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4069215e-14, Final residual = 4.4069215e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4201911e-14, Final residual = 4.4201911e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1674781e-06, Final residual = 1.5956902e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505584e-09, Final residual = 9.6505584e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505584e-09, Final residual = 9.6505584e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505584e-09, Final residual = 9.6505584e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588952e-08, global = -7.0455964e-10, cumulative = -1.3727376e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.93343e-16, Final residual = 7.93343e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3521041e-14, Final residual = 4.3521041e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3215674e-14, Final residual = 4.3215674e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.460321e-06, Final residual = 1.802025e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532303e-09, Final residual = 9.6532303e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532303e-09, Final residual = 9.6532303e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532303e-09, Final residual = 9.6532303e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592989e-08, global = 1.2998384e-10, cumulative = -1.3726076e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042854751, Final residual = 1.1667789e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 538.71 s  ClockTime = 583 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1981
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.954836e-16, Final residual = 7.954836e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3843374e-14, Final residual = 4.3843374e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3417363e-14, Final residual = 4.3417363e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.46126e-06, Final residual = 1.8013815e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233154e-09, Final residual = 9.8233154e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233154e-09, Final residual = 9.8233154e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233154e-09, Final residual = 9.8233154e-09, No Iterations 0
+time step continuity errors : sum local = 1.485014e-08, global = -6.7301901e-11, cumulative = -1.3726749e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0028766e-16, Final residual = 8.0028766e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3503177e-14, Final residual = 4.3503177e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3760001e-14, Final residual = 4.3760001e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1714774e-06, Final residual = 1.5958839e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.8646936e-09, Final residual = 8.8646936e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8646936e-09, Final residual = 8.8646936e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8646936e-09, Final residual = 8.8646936e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.0218905e-10, cumulative = -1.3727771e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9122988e-16, Final residual = 7.9122988e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3844228e-14, Final residual = 4.3844228e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4146225e-14, Final residual = 4.4146225e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0067416e-06, Final residual = 1.4796197e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089369e-09, Final residual = 9.0089369e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089369e-09, Final residual = 9.0089369e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089369e-09, Final residual = 9.0089369e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619028e-08, global = -1.3414971e-10, cumulative = -1.3729113e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9202168e-16, Final residual = 7.9202168e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3950669e-14, Final residual = 4.3950669e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.358941e-14, Final residual = 4.358941e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.167724e-06, Final residual = 1.5956759e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505645e-09, Final residual = 9.6505645e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505645e-09, Final residual = 9.6505645e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505645e-09, Final residual = 9.6505645e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588957e-08, global = -7.0455966e-10, cumulative = -1.3736158e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9218695e-16, Final residual = 7.9218695e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3511416e-14, Final residual = 4.3511416e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3900978e-14, Final residual = 4.3900978e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.460126e-06, Final residual = 1.8017665e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532127e-09, Final residual = 9.6532127e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532127e-09, Final residual = 9.6532127e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532127e-09, Final residual = 9.6532127e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592985e-08, global = 1.2998389e-10, cumulative = -1.3734858e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042837135, Final residual = 1.166056e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 538.82 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1982
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.906479e-16, Final residual = 7.906479e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4125306e-14, Final residual = 4.4125306e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3705721e-14, Final residual = 4.3705721e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4609949e-06, Final residual = 1.8010527e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233311e-09, Final residual = 9.8233311e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233311e-09, Final residual = 9.8233311e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233311e-09, Final residual = 9.8233311e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850139e-08, global = -6.7301831e-11, cumulative = -1.3735531e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9016416e-16, Final residual = 7.9016416e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3854192e-14, Final residual = 4.3854192e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.381695e-14, Final residual = 4.381695e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1715912e-06, Final residual = 1.5962021e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647228e-09, Final residual = 8.8647228e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647228e-09, Final residual = 8.8647228e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647228e-09, Final residual = 8.8647228e-09, No Iterations 0
+time step continuity errors : sum local = 1.3401e-08, global = -1.0218903e-10, cumulative = -1.3736553e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9188014e-16, Final residual = 7.9188014e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3558999e-14, Final residual = 4.3558999e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3809489e-14, Final residual = 4.3809489e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0074059e-06, Final residual = 1.4803041e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.008943e-09, Final residual = 9.008943e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.008943e-09, Final residual = 9.008943e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.008943e-09, Final residual = 9.008943e-09, No Iterations 0
+time step continuity errors : sum local = 1.361903e-08, global = -1.3414974e-10, cumulative = -1.3737895e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.029761e-16, Final residual = 8.029761e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3966164e-14, Final residual = 4.3966164e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3578364e-14, Final residual = 4.3578364e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1679164e-06, Final residual = 1.5958675e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.650558e-09, Final residual = 9.650558e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.650558e-09, Final residual = 9.650558e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.650558e-09, Final residual = 9.650558e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588959e-08, global = -7.0455963e-10, cumulative = -1.374494e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0162064e-16, Final residual = 8.0162064e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.364683e-14, Final residual = 4.364683e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3566688e-14, Final residual = 4.3566688e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.45979e-06, Final residual = 1.8013316e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532293e-09, Final residual = 9.6532293e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532293e-09, Final residual = 9.6532293e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532293e-09, Final residual = 9.6532293e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592988e-08, global = 1.2998384e-10, cumulative = -1.374364e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042818041, Final residual = 1.1655646e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 538.93 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1983
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.911766e-16, Final residual = 7.911766e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3702974e-14, Final residual = 4.3702974e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.382095e-14, Final residual = 4.382095e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4605761e-06, Final residual = 1.8005729e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233211e-09, Final residual = 9.8233211e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233211e-09, Final residual = 9.8233211e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233211e-09, Final residual = 9.8233211e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850137e-08, global = -6.7301882e-11, cumulative = -1.3744313e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0109694e-16, Final residual = 8.0109694e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4271625e-14, Final residual = 4.4271625e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3776373e-14, Final residual = 4.3776373e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.171721e-06, Final residual = 1.595914e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647192e-09, Final residual = 8.8647192e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647192e-09, Final residual = 8.8647192e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647192e-09, Final residual = 8.8647192e-09, No Iterations 0
+time step continuity errors : sum local = 1.3401e-08, global = -1.0218907e-10, cumulative = -1.3745335e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.927402e-16, Final residual = 7.927402e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3488944e-14, Final residual = 4.3488944e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4159261e-14, Final residual = 4.4159261e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0078533e-06, Final residual = 1.4806e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089626e-09, Final residual = 9.0089626e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089626e-09, Final residual = 9.0089626e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089626e-09, Final residual = 9.0089626e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619024e-08, global = -1.3414966e-10, cumulative = -1.3746677e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9524797e-16, Final residual = 7.9524797e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4005204e-14, Final residual = 4.4005204e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3660846e-14, Final residual = 4.3660846e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.16816e-06, Final residual = 1.5957736e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.650551e-09, Final residual = 9.650551e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.650551e-09, Final residual = 9.650551e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.650551e-09, Final residual = 9.650551e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588955e-08, global = -7.0455967e-10, cumulative = -1.3753722e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9402573e-16, Final residual = 7.9402573e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3653693e-14, Final residual = 4.3653693e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3587214e-14, Final residual = 4.3587214e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4596383e-06, Final residual = 1.8017991e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532196e-09, Final residual = 9.6532196e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532196e-09, Final residual = 9.6532196e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532196e-09, Final residual = 9.6532196e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592989e-08, global = 1.2998385e-10, cumulative = -1.3752423e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042796157, Final residual = 1.1650483e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 539.05 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1984
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.903057e-16, Final residual = 7.903057e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.40625e-14, Final residual = 4.40625e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3503304e-14, Final residual = 4.3503304e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4604171e-06, Final residual = 1.8003282e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233325e-09, Final residual = 9.8233325e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233325e-09, Final residual = 9.8233325e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233325e-09, Final residual = 9.8233325e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850132e-08, global = -6.7301864e-11, cumulative = -1.3753096e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9866702e-16, Final residual = 7.9866702e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4286045e-14, Final residual = 4.4286045e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3709334e-14, Final residual = 4.3709334e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1718421e-06, Final residual = 1.5964222e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.864708e-09, Final residual = 8.864708e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.864708e-09, Final residual = 8.864708e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.864708e-09, Final residual = 8.864708e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.0218904e-10, cumulative = -1.3754118e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9843139e-16, Final residual = 7.9843139e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3642645e-14, Final residual = 4.3642645e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3920904e-14, Final residual = 4.3920904e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0080803e-06, Final residual = 1.48037e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089458e-09, Final residual = 9.0089458e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089458e-09, Final residual = 9.0089458e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089458e-09, Final residual = 9.0089458e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619029e-08, global = -1.3414971e-10, cumulative = -1.3755459e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0013862e-16, Final residual = 8.0013862e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4037148e-14, Final residual = 4.4037148e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3801995e-14, Final residual = 4.3801995e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1682762e-06, Final residual = 1.5961894e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505511e-09, Final residual = 9.6505511e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505511e-09, Final residual = 9.6505511e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505511e-09, Final residual = 9.6505511e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588958e-08, global = -7.0455963e-10, cumulative = -1.3762505e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9281389e-16, Final residual = 7.9281389e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3288951e-14, Final residual = 4.3288951e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3621932e-14, Final residual = 4.3621932e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4592732e-06, Final residual = 1.8005759e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532239e-09, Final residual = 9.6532239e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532239e-09, Final residual = 9.6532239e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532239e-09, Final residual = 9.6532239e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592991e-08, global = 1.2998385e-10, cumulative = -1.3761205e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042775329, Final residual = 1.1644958e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 539.16 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1985
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9236679e-16, Final residual = 7.9236679e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4163378e-14, Final residual = 4.4163378e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3102645e-14, Final residual = 4.3102645e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4601566e-06, Final residual = 1.8005844e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233389e-09, Final residual = 9.8233389e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233389e-09, Final residual = 9.8233389e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233389e-09, Final residual = 9.8233389e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850137e-08, global = -6.7301915e-11, cumulative = -1.3761878e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9887516e-16, Final residual = 7.9887516e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3695959e-14, Final residual = 4.3695959e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4091239e-14, Final residual = 4.4091239e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1721617e-06, Final residual = 1.5964293e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647097e-09, Final residual = 8.8647097e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647097e-09, Final residual = 8.8647097e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647097e-09, Final residual = 8.8647097e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.0218904e-10, cumulative = -1.37629e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0520162e-16, Final residual = 8.0520162e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4096322e-14, Final residual = 4.4096322e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4221664e-14, Final residual = 4.4221664e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0083884e-06, Final residual = 1.4810581e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089217e-09, Final residual = 9.0089217e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089217e-09, Final residual = 9.0089217e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089217e-09, Final residual = 9.0089217e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619026e-08, global = -1.3414972e-10, cumulative = -1.3764241e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0345109e-16, Final residual = 8.0345109e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3910842e-14, Final residual = 4.3910842e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3741881e-14, Final residual = 4.3741881e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1683821e-06, Final residual = 1.596581e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505589e-09, Final residual = 9.6505589e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505589e-09, Final residual = 9.6505589e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505589e-09, Final residual = 9.6505589e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588953e-08, global = -7.0455961e-10, cumulative = -1.3771287e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9208745e-16, Final residual = 7.9208745e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3313907e-14, Final residual = 4.3313907e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3971617e-14, Final residual = 4.3971617e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4589961e-06, Final residual = 1.8010126e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.65323e-09, Final residual = 9.65323e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.65323e-09, Final residual = 9.65323e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.65323e-09, Final residual = 9.65323e-09, No Iterations 0
+time step continuity errors : sum local = 1.459299e-08, global = 1.2998386e-10, cumulative = -1.3769987e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042754992, Final residual = 1.1638979e-06, No Iterations 2
+Min/max T:0.010499714 0.010499894
+ExecutionTime = 539.28 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1986
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9859791e-16, Final residual = 7.9859791e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3635611e-14, Final residual = 4.3635611e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3367919e-14, Final residual = 4.3367919e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4598083e-06, Final residual = 1.8003942e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233266e-09, Final residual = 9.8233266e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233266e-09, Final residual = 9.8233266e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233266e-09, Final residual = 9.8233266e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850137e-08, global = -6.7301835e-11, cumulative = -1.377066e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9401782e-16, Final residual = 7.9401782e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3762212e-14, Final residual = 4.3762212e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3533309e-14, Final residual = 4.3533309e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.17218e-06, Final residual = 1.5963824e-09, No Iterations 1
+Min/max T:0.01 0.010503952
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647156e-09, Final residual = 8.8647156e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647156e-09, Final residual = 8.8647156e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647156e-09, Final residual = 8.8647156e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.0218913e-10, cumulative = -1.3771682e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0274839e-16, Final residual = 8.0274839e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4119586e-14, Final residual = 4.4119586e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3915833e-14, Final residual = 4.3915833e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0088893e-06, Final residual = 1.4811913e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089402e-09, Final residual = 9.0089402e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089402e-09, Final residual = 9.0089402e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089402e-09, Final residual = 9.0089402e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619027e-08, global = -1.3414967e-10, cumulative = -1.3773023e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.942447e-16, Final residual = 7.942447e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4202167e-14, Final residual = 4.4202167e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3489939e-14, Final residual = 4.3489939e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1685712e-06, Final residual = 1.5963085e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505669e-09, Final residual = 9.6505669e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505669e-09, Final residual = 9.6505669e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505669e-09, Final residual = 9.6505669e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588957e-08, global = -7.0455967e-10, cumulative = -1.3780069e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9312236e-16, Final residual = 7.9312236e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3852829e-14, Final residual = 4.3852829e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3926984e-14, Final residual = 4.3926984e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4587824e-06, Final residual = 1.800356e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532321e-09, Final residual = 9.6532321e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532321e-09, Final residual = 9.6532321e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532321e-09, Final residual = 9.6532321e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592987e-08, global = 1.2998386e-10, cumulative = -1.3778769e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042731271, Final residual = 1.1631833e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 539.4 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1987
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9876651e-16, Final residual = 7.9876651e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3339969e-14, Final residual = 4.3339969e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3743843e-14, Final residual = 4.3743843e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.459714e-06, Final residual = 1.8002383e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233289e-09, Final residual = 9.8233289e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233289e-09, Final residual = 9.8233289e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233289e-09, Final residual = 9.8233289e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850135e-08, global = -6.7301865e-11, cumulative = -1.3779442e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9168448e-16, Final residual = 7.9168448e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3865391e-14, Final residual = 4.3865391e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3938696e-14, Final residual = 4.3938696e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1722907e-06, Final residual = 1.5967899e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647102e-09, Final residual = 8.8647102e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647102e-09, Final residual = 8.8647102e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647102e-09, Final residual = 8.8647102e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400998e-08, global = -1.0218909e-10, cumulative = -1.3780464e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8534678e-16, Final residual = 7.8534678e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4453716e-14, Final residual = 4.4453716e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4046016e-14, Final residual = 4.4046016e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0092941e-06, Final residual = 1.4814307e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089481e-09, Final residual = 9.0089481e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089481e-09, Final residual = 9.0089481e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089481e-09, Final residual = 9.0089481e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619026e-08, global = -1.3414972e-10, cumulative = -1.3781806e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0471455e-16, Final residual = 8.0471455e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3690327e-14, Final residual = 4.3690327e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4103249e-14, Final residual = 4.4103249e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1686105e-06, Final residual = 1.5963849e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505627e-09, Final residual = 9.6505627e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505627e-09, Final residual = 9.6505627e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505627e-09, Final residual = 9.6505627e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588958e-08, global = -7.0455963e-10, cumulative = -1.3788851e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.7617036e-16, Final residual = 7.7617036e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3784699e-14, Final residual = 4.3784699e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3973254e-14, Final residual = 4.3973254e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4586085e-06, Final residual = 1.8005519e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532404e-09, Final residual = 9.6532404e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532404e-09, Final residual = 9.6532404e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532404e-09, Final residual = 9.6532404e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592988e-08, global = 1.2998383e-10, cumulative = -1.3787551e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042715297, Final residual = 1.1626027e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 539.51 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1988
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0656291e-16, Final residual = 8.0656291e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3879063e-14, Final residual = 4.3879063e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3933361e-14, Final residual = 4.3933361e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4593349e-06, Final residual = 1.7993903e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233453e-09, Final residual = 9.8233453e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233453e-09, Final residual = 9.8233453e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233453e-09, Final residual = 9.8233453e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850133e-08, global = -6.7301884e-11, cumulative = -1.3788224e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0134588e-16, Final residual = 8.0134588e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.400107e-14, Final residual = 4.400107e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.365268e-14, Final residual = 4.365268e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1724127e-06, Final residual = 1.5968054e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647241e-09, Final residual = 8.8647241e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647241e-09, Final residual = 8.8647241e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647241e-09, Final residual = 8.8647241e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400996e-08, global = -1.0218909e-10, cumulative = -1.3789246e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0082801e-16, Final residual = 8.0082801e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4140194e-14, Final residual = 4.4140194e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3749839e-14, Final residual = 4.3749839e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0096856e-06, Final residual = 1.4818617e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089368e-09, Final residual = 9.0089368e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089368e-09, Final residual = 9.0089368e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089368e-09, Final residual = 9.0089368e-09, No Iterations 0
+time step continuity errors : sum local = 1.361903e-08, global = -1.3414968e-10, cumulative = -1.3790588e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9445243e-16, Final residual = 7.9445243e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3907828e-14, Final residual = 4.3907828e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4148044e-14, Final residual = 4.4148044e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1687077e-06, Final residual = 1.5962606e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505507e-09, Final residual = 9.6505507e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505507e-09, Final residual = 9.6505507e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505507e-09, Final residual = 9.6505507e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588958e-08, global = -7.045597e-10, cumulative = -1.3797633e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8263378e-16, Final residual = 7.8263378e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3794482e-14, Final residual = 4.3794482e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4054095e-14, Final residual = 4.4054095e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4582634e-06, Final residual = 1.8001841e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532338e-09, Final residual = 9.6532338e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532338e-09, Final residual = 9.6532338e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532338e-09, Final residual = 9.6532338e-09, No Iterations 0
+time step continuity errors : sum local = 1.459299e-08, global = 1.2998385e-10, cumulative = -1.3796333e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042692163, Final residual = 1.1620253e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 539.61 s  ClockTime = 584 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1989
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9742687e-16, Final residual = 7.9742687e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3515347e-14, Final residual = 4.3515347e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.391513e-14, Final residual = 4.391513e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4591265e-06, Final residual = 1.7995266e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233368e-09, Final residual = 9.8233368e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233368e-09, Final residual = 9.8233368e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233368e-09, Final residual = 9.8233368e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850139e-08, global = -6.7301865e-11, cumulative = -1.3797006e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.046596e-16, Final residual = 8.046596e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3941646e-14, Final residual = 4.3941646e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3601924e-14, Final residual = 4.3601924e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1725061e-06, Final residual = 1.5969342e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647087e-09, Final residual = 8.8647087e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647087e-09, Final residual = 8.8647087e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647087e-09, Final residual = 8.8647087e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400998e-08, global = -1.0218907e-10, cumulative = -1.3798028e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8939943e-16, Final residual = 7.8939943e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4083969e-14, Final residual = 4.4083969e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3903876e-14, Final residual = 4.3903876e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0099351e-06, Final residual = 1.4819248e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089425e-09, Final residual = 9.0089425e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089425e-09, Final residual = 9.0089425e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089425e-09, Final residual = 9.0089425e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619023e-08, global = -1.341497e-10, cumulative = -1.379937e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9635699e-16, Final residual = 7.9635699e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4031982e-14, Final residual = 4.4031982e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3807362e-14, Final residual = 4.3807362e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1688565e-06, Final residual = 1.5963821e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505611e-09, Final residual = 9.6505611e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505611e-09, Final residual = 9.6505611e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505611e-09, Final residual = 9.6505611e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588959e-08, global = -7.0455966e-10, cumulative = -1.3806415e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9835063e-16, Final residual = 7.9835063e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3477254e-14, Final residual = 4.3477254e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4263752e-14, Final residual = 4.4263752e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4578596e-06, Final residual = 1.8001099e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532234e-09, Final residual = 9.6532234e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532234e-09, Final residual = 9.6532234e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532234e-09, Final residual = 9.6532234e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592992e-08, global = 1.2998387e-10, cumulative = -1.3805116e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042676389, Final residual = 1.161834e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 539.71 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1990
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0178965e-16, Final residual = 8.0178965e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3615821e-14, Final residual = 4.3615821e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4036946e-14, Final residual = 4.4036946e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4587801e-06, Final residual = 1.7995423e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233111e-09, Final residual = 9.8233111e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233111e-09, Final residual = 9.8233111e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233111e-09, Final residual = 9.8233111e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850135e-08, global = -6.7301899e-11, cumulative = -1.3805789e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8889945e-16, Final residual = 7.8889945e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4099492e-14, Final residual = 4.4099492e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4124933e-14, Final residual = 4.4124933e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1726161e-06, Final residual = 1.5969618e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647111e-09, Final residual = 8.8647111e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647111e-09, Final residual = 8.8647111e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647111e-09, Final residual = 8.8647111e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.0218908e-10, cumulative = -1.3806811e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8976036e-16, Final residual = 7.8976036e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4197678e-14, Final residual = 4.4197678e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4023897e-14, Final residual = 4.4023897e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0104384e-06, Final residual = 1.4826661e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089415e-09, Final residual = 9.0089415e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089415e-09, Final residual = 9.0089415e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089415e-09, Final residual = 9.0089415e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619026e-08, global = -1.3414969e-10, cumulative = -1.3808152e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9535746e-16, Final residual = 7.9535746e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3894073e-14, Final residual = 4.3894073e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3814707e-14, Final residual = 4.3814707e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1690021e-06, Final residual = 1.5965127e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505571e-09, Final residual = 9.6505571e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505571e-09, Final residual = 9.6505571e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505571e-09, Final residual = 9.6505571e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588956e-08, global = -7.0455963e-10, cumulative = -1.3815198e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9694771e-16, Final residual = 7.9694771e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3781196e-14, Final residual = 4.3781196e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3916395e-14, Final residual = 4.3916395e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4576211e-06, Final residual = 1.7999593e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532254e-09, Final residual = 9.6532254e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532254e-09, Final residual = 9.6532254e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532254e-09, Final residual = 9.6532254e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592994e-08, global = 1.2998392e-10, cumulative = -1.3813898e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042651983, Final residual = 1.160945e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 539.83 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1991
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9879024e-16, Final residual = 7.9879024e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3767376e-14, Final residual = 4.3767376e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3538309e-14, Final residual = 4.3538309e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4586137e-06, Final residual = 1.7997197e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233325e-09, Final residual = 9.8233325e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233325e-09, Final residual = 9.8233325e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233325e-09, Final residual = 9.8233325e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850138e-08, global = -6.7301893e-11, cumulative = -1.3814571e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9842681e-16, Final residual = 7.9842681e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3974957e-14, Final residual = 4.3974957e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4121569e-14, Final residual = 4.4121569e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1726461e-06, Final residual = 1.5968436e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647009e-09, Final residual = 8.8647009e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647009e-09, Final residual = 8.8647009e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647009e-09, Final residual = 8.8647009e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.0218912e-10, cumulative = -1.3815593e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9088019e-16, Final residual = 7.9088019e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4245857e-14, Final residual = 4.4245857e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3838878e-14, Final residual = 4.3838878e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.010783e-06, Final residual = 1.482785e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.008927e-09, Final residual = 9.008927e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.008927e-09, Final residual = 9.008927e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.008927e-09, Final residual = 9.008927e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619025e-08, global = -1.3414961e-10, cumulative = -1.3816934e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0551259e-16, Final residual = 8.0551259e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4083716e-14, Final residual = 4.4083716e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.371109e-14, Final residual = 4.371109e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1694202e-06, Final residual = 1.5970145e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505552e-09, Final residual = 9.6505552e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505552e-09, Final residual = 9.6505552e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505552e-09, Final residual = 9.6505552e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588954e-08, global = -7.045597e-10, cumulative = -1.382398e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8656195e-16, Final residual = 7.8656195e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4290412e-14, Final residual = 4.4290412e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3815186e-14, Final residual = 4.3815186e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4573844e-06, Final residual = 1.7997702e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532228e-09, Final residual = 9.6532228e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532228e-09, Final residual = 9.6532228e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532228e-09, Final residual = 9.6532228e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592993e-08, global = 1.2998382e-10, cumulative = -1.382268e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042629312, Final residual = 1.1604824e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 539.94 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1992
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9279183e-16, Final residual = 7.9279183e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3541938e-14, Final residual = 4.3541938e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4197396e-14, Final residual = 4.4197396e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4582661e-06, Final residual = 1.7992549e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233298e-09, Final residual = 9.8233298e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233298e-09, Final residual = 9.8233298e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233298e-09, Final residual = 9.8233298e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850139e-08, global = -6.7301887e-11, cumulative = -1.3823353e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8777171e-16, Final residual = 7.8777171e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.408587e-14, Final residual = 4.408587e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4184153e-14, Final residual = 4.4184153e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1728863e-06, Final residual = 1.596965e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647036e-09, Final residual = 8.8647036e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647036e-09, Final residual = 8.8647036e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647036e-09, Final residual = 8.8647036e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.0218912e-10, cumulative = -1.3824375e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0266138e-16, Final residual = 8.0266138e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3652872e-14, Final residual = 4.3652872e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.392376e-14, Final residual = 4.392376e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0112305e-06, Final residual = 1.4826961e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089285e-09, Final residual = 9.0089285e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089285e-09, Final residual = 9.0089285e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089285e-09, Final residual = 9.0089285e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619029e-08, global = -1.3414969e-10, cumulative = -1.3825716e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0060113e-16, Final residual = 8.0060113e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4236692e-14, Final residual = 4.4236692e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4037236e-14, Final residual = 4.4037236e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1695916e-06, Final residual = 1.5971582e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505598e-09, Final residual = 9.6505598e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505598e-09, Final residual = 9.6505598e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505598e-09, Final residual = 9.6505598e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588954e-08, global = -7.0455973e-10, cumulative = -1.3832762e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9578749e-16, Final residual = 7.9578749e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4187753e-14, Final residual = 4.4187753e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3850059e-14, Final residual = 4.3850059e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4572683e-06, Final residual = 1.7997872e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532264e-09, Final residual = 9.6532264e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532264e-09, Final residual = 9.6532264e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532264e-09, Final residual = 9.6532264e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592996e-08, global = 1.2998389e-10, cumulative = -1.3831462e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042604489, Final residual = 1.1595824e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.06 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1993
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0355975e-16, Final residual = 8.0355975e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.359754e-14, Final residual = 4.359754e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3629567e-14, Final residual = 4.3629567e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4579534e-06, Final residual = 1.798447e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233242e-09, Final residual = 9.8233242e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233242e-09, Final residual = 9.8233242e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233242e-09, Final residual = 9.8233242e-09, No Iterations 0
+time step continuity errors : sum local = 1.485014e-08, global = -6.7301895e-11, cumulative = -1.3832135e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9124778e-16, Final residual = 7.9124778e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4205187e-14, Final residual = 4.4205187e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4109989e-14, Final residual = 4.4109989e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1730582e-06, Final residual = 1.596957e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647173e-09, Final residual = 8.8647173e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647173e-09, Final residual = 8.8647173e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647173e-09, Final residual = 8.8647173e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400998e-08, global = -1.021891e-10, cumulative = -1.3833157e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9695146e-16, Final residual = 7.9695146e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4009762e-14, Final residual = 4.4009762e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4261908e-14, Final residual = 4.4261908e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0115401e-06, Final residual = 1.4831199e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089515e-09, Final residual = 9.0089515e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089515e-09, Final residual = 9.0089515e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089515e-09, Final residual = 9.0089515e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619025e-08, global = -1.3414965e-10, cumulative = -1.3834499e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0542475e-16, Final residual = 8.0542475e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4132055e-14, Final residual = 4.4132055e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3721889e-14, Final residual = 4.3721889e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1696605e-06, Final residual = 1.5969946e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505513e-09, Final residual = 9.6505513e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505513e-09, Final residual = 9.6505513e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505513e-09, Final residual = 9.6505513e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588951e-08, global = -7.0455966e-10, cumulative = -1.3841544e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0060862e-16, Final residual = 8.0060862e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4063687e-14, Final residual = 4.4063687e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3927145e-14, Final residual = 4.3927145e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4570001e-06, Final residual = 1.7994911e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532382e-09, Final residual = 9.6532382e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532382e-09, Final residual = 9.6532382e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532382e-09, Final residual = 9.6532382e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592994e-08, global = 1.2998385e-10, cumulative = -1.3840244e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042586142, Final residual = 1.1592692e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.17 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1994
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0028516e-16, Final residual = 8.0028516e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4040386e-14, Final residual = 4.4040386e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3879365e-14, Final residual = 4.3879365e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.457811e-06, Final residual = 1.798846e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233241e-09, Final residual = 9.8233241e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233241e-09, Final residual = 9.8233241e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233241e-09, Final residual = 9.8233241e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850142e-08, global = -6.730197e-11, cumulative = -1.3840917e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9469305e-16, Final residual = 7.9469305e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3782476e-14, Final residual = 4.3782476e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4037065e-14, Final residual = 4.4037065e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1731132e-06, Final residual = 1.5969762e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647043e-09, Final residual = 8.8647043e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647043e-09, Final residual = 8.8647043e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647043e-09, Final residual = 8.8647043e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400998e-08, global = -1.0218913e-10, cumulative = -1.3841939e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8869339e-16, Final residual = 7.8869339e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.399634e-14, Final residual = 4.399634e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3613383e-14, Final residual = 4.3613383e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0119207e-06, Final residual = 1.4835691e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089361e-09, Final residual = 9.0089361e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089361e-09, Final residual = 9.0089361e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089361e-09, Final residual = 9.0089361e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619029e-08, global = -1.3414969e-10, cumulative = -1.3843281e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0078388e-16, Final residual = 8.0078388e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4213992e-14, Final residual = 4.4213992e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4034068e-14, Final residual = 4.4034068e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1697566e-06, Final residual = 1.5968825e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505502e-09, Final residual = 9.6505502e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505502e-09, Final residual = 9.6505502e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505502e-09, Final residual = 9.6505502e-09, No Iterations 0
+time step continuity errors : sum local = 1.458895e-08, global = -7.0455973e-10, cumulative = -1.3850326e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9896383e-16, Final residual = 7.9896383e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3704888e-14, Final residual = 4.3704888e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.407867e-14, Final residual = 4.407867e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4567587e-06, Final residual = 1.7989643e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.653228e-09, Final residual = 9.653228e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.653228e-09, Final residual = 9.653228e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.653228e-09, Final residual = 9.653228e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592996e-08, global = 1.2998387e-10, cumulative = -1.3849026e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042558444, Final residual = 1.1585574e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.29 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1995
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.1407289e-16, Final residual = 8.1407289e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4178216e-14, Final residual = 4.4178216e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3583007e-14, Final residual = 4.3583007e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4575505e-06, Final residual = 1.7988272e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233348e-09, Final residual = 9.8233348e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233348e-09, Final residual = 9.8233348e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233348e-09, Final residual = 9.8233348e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850143e-08, global = -6.7301901e-11, cumulative = -1.3849699e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8127499e-16, Final residual = 7.8127499e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4051897e-14, Final residual = 4.4051897e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3639396e-14, Final residual = 4.3639396e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1730564e-06, Final residual = 1.5971398e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647174e-09, Final residual = 8.8647174e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647174e-09, Final residual = 8.8647174e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647174e-09, Final residual = 8.8647174e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400999e-08, global = -1.021891e-10, cumulative = -1.3850721e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9801634e-16, Final residual = 7.9801634e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3667731e-14, Final residual = 4.3667731e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4108592e-14, Final residual = 4.4108592e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0122822e-06, Final residual = 1.4838723e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089444e-09, Final residual = 9.0089444e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089444e-09, Final residual = 9.0089444e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089444e-09, Final residual = 9.0089444e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619023e-08, global = -1.3414966e-10, cumulative = -1.3852063e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0740216e-16, Final residual = 8.0740216e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3839557e-14, Final residual = 4.3839557e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3970772e-14, Final residual = 4.3970772e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1700538e-06, Final residual = 1.5977944e-09, No Iterations 1
+Min/max T:0.01 0.01050395
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505389e-09, Final residual = 9.6505389e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505389e-09, Final residual = 9.6505389e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505389e-09, Final residual = 9.6505389e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588952e-08, global = -7.0455967e-10, cumulative = -1.3859108e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9540533e-16, Final residual = 7.9540533e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3432838e-14, Final residual = 4.3432838e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3801956e-14, Final residual = 4.3801956e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4562468e-06, Final residual = 1.7988896e-09, No Iterations 1
+Min/max T:0.01 0.010503956
+DICPCG:  Solving for p_rgh, Initial residual = 9.65322e-09, Final residual = 9.65322e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.65322e-09, Final residual = 9.65322e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.65322e-09, Final residual = 9.65322e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592992e-08, global = 1.2998385e-10, cumulative = -1.3857809e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042529278, Final residual = 1.1575745e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.4 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1996
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9861456e-16, Final residual = 7.9861456e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3796987e-14, Final residual = 4.3796987e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3937145e-14, Final residual = 4.3937145e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4572663e-06, Final residual = 1.798219e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233086e-09, Final residual = 9.8233086e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233086e-09, Final residual = 9.8233086e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233086e-09, Final residual = 9.8233086e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850143e-08, global = -6.7301881e-11, cumulative = -1.3858482e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.7969181e-16, Final residual = 7.7969181e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4396602e-14, Final residual = 4.4396602e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3904902e-14, Final residual = 4.3904902e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1731637e-06, Final residual = 1.597383e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647088e-09, Final residual = 8.8647088e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647088e-09, Final residual = 8.8647088e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647088e-09, Final residual = 8.8647088e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.0218904e-10, cumulative = -1.3859504e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9647522e-16, Final residual = 7.9647522e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.390764e-14, Final residual = 4.390764e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3785697e-14, Final residual = 4.3785697e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0126938e-06, Final residual = 1.4841298e-09, No Iterations 1
+Min/max T:0.01 0.010503948
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089605e-09, Final residual = 9.0089605e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089605e-09, Final residual = 9.0089605e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089605e-09, Final residual = 9.0089605e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619024e-08, global = -1.3414962e-10, cumulative = -1.3860845e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0452805e-16, Final residual = 8.0452805e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4255583e-14, Final residual = 4.4255583e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.392716e-14, Final residual = 4.392716e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1701776e-06, Final residual = 1.5974873e-09, No Iterations 1
+Min/max T:0.01 0.010503949
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505628e-09, Final residual = 9.6505628e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505628e-09, Final residual = 9.6505628e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505628e-09, Final residual = 9.6505628e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588951e-08, global = -7.0455962e-10, cumulative = -1.3867891e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0060945e-16, Final residual = 8.0060945e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3670384e-14, Final residual = 4.3670384e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3623457e-14, Final residual = 4.3623457e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4561035e-06, Final residual = 1.7986293e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532296e-09, Final residual = 9.6532296e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532296e-09, Final residual = 9.6532296e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532296e-09, Final residual = 9.6532296e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592994e-08, global = 1.2998388e-10, cumulative = -1.3866591e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042506297, Final residual = 1.1570503e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.52 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1997
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0103241e-16, Final residual = 8.0103241e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3787381e-14, Final residual = 4.3787381e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3540932e-14, Final residual = 4.3540932e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4569121e-06, Final residual = 1.7979608e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233304e-09, Final residual = 9.8233304e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233304e-09, Final residual = 9.8233304e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233304e-09, Final residual = 9.8233304e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850139e-08, global = -6.7301929e-11, cumulative = -1.3867264e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8894899e-16, Final residual = 7.8894899e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4090156e-14, Final residual = 4.4090156e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3642126e-14, Final residual = 4.3642126e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1734346e-06, Final residual = 1.5975392e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647165e-09, Final residual = 8.8647165e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647165e-09, Final residual = 8.8647165e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647165e-09, Final residual = 8.8647165e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.0218912e-10, cumulative = -1.3868286e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8342141e-16, Final residual = 7.8342141e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4207221e-14, Final residual = 4.4207221e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4264978e-14, Final residual = 4.4264978e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0131681e-06, Final residual = 1.4843214e-09, No Iterations 1
+Min/max T:0.01 0.010503947
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089366e-09, Final residual = 9.0089366e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089366e-09, Final residual = 9.0089366e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089366e-09, Final residual = 9.0089366e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619024e-08, global = -1.3414967e-10, cumulative = -1.3869627e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9930894e-16, Final residual = 7.9930894e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4026253e-14, Final residual = 4.4026253e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4020074e-14, Final residual = 4.4020074e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1702772e-06, Final residual = 1.5971987e-09, No Iterations 1
+Min/max T:0.01 0.010503949
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505453e-09, Final residual = 9.6505453e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505453e-09, Final residual = 9.6505453e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505453e-09, Final residual = 9.6505453e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588954e-08, global = -7.0455969e-10, cumulative = -1.3876673e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0288909e-16, Final residual = 8.0288909e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3522855e-14, Final residual = 4.3522855e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3836787e-14, Final residual = 4.3836787e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4561036e-06, Final residual = 1.7986363e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532156e-09, Final residual = 9.6532156e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532156e-09, Final residual = 9.6532156e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532156e-09, Final residual = 9.6532156e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592991e-08, global = 1.2998381e-10, cumulative = -1.3875373e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042480376, Final residual = 1.1563082e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.62 s  ClockTime = 585 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1998
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0674733e-16, Final residual = 8.0674733e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4008568e-14, Final residual = 4.4008568e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3541323e-14, Final residual = 4.3541323e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.45681e-06, Final residual = 1.7979563e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233287e-09, Final residual = 9.8233287e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233287e-09, Final residual = 9.8233287e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233287e-09, Final residual = 9.8233287e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850141e-08, global = -6.7301941e-11, cumulative = -1.3876046e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9525047e-16, Final residual = 7.9525047e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3884775e-14, Final residual = 4.3884775e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4208409e-14, Final residual = 4.4208409e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1735497e-06, Final residual = 1.5974559e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647077e-09, Final residual = 8.8647077e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647077e-09, Final residual = 8.8647077e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647077e-09, Final residual = 8.8647077e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.0218921e-10, cumulative = -1.3877068e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9006592e-16, Final residual = 7.9006592e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4035287e-14, Final residual = 4.4035287e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3890194e-14, Final residual = 4.3890194e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0137138e-06, Final residual = 1.4850131e-09, No Iterations 1
+Min/max T:0.01 0.010503947
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089538e-09, Final residual = 9.0089538e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089538e-09, Final residual = 9.0089538e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089538e-09, Final residual = 9.0089538e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619025e-08, global = -1.3414963e-10, cumulative = -1.3878409e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0328457e-16, Final residual = 8.0328457e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4765483e-14, Final residual = 4.4765483e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4333298e-14, Final residual = 4.4333298e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1704343e-06, Final residual = 1.5975229e-09, No Iterations 1
+Min/max T:0.01 0.010503949
+DICPCG:  Solving for p_rgh, Initial residual = 9.650543e-09, Final residual = 9.650543e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.650543e-09, Final residual = 9.650543e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.650543e-09, Final residual = 9.650543e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588954e-08, global = -7.0455967e-10, cumulative = -1.3885455e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9676995e-16, Final residual = 7.9676995e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3872934e-14, Final residual = 4.3872934e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3877761e-14, Final residual = 4.3877761e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.455511e-06, Final residual = 1.7983914e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.65324e-09, Final residual = 9.65324e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.65324e-09, Final residual = 9.65324e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.65324e-09, Final residual = 9.65324e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592993e-08, global = 1.2998383e-10, cumulative = -1.3884155e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.0004245832, Final residual = 1.1559165e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.72 s  ClockTime = 586 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 1999
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.0703873e-16, Final residual = 8.0703873e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.374112e-14, Final residual = 4.374112e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3615422e-14, Final residual = 4.3615422e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4564471e-06, Final residual = 1.7976821e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233274e-09, Final residual = 9.8233274e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233274e-09, Final residual = 9.8233274e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233274e-09, Final residual = 9.8233274e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850144e-08, global = -6.7301915e-11, cumulative = -1.3884828e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.8330859e-16, Final residual = 7.8330859e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3778242e-14, Final residual = 4.3778242e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3740477e-14, Final residual = 4.3740477e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1737756e-06, Final residual = 1.5977862e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647071e-09, Final residual = 8.8647071e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647071e-09, Final residual = 8.8647071e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647071e-09, Final residual = 8.8647071e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.0218905e-10, cumulative = -1.388585e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9105212e-16, Final residual = 7.9105212e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3751583e-14, Final residual = 4.3751583e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4033878e-14, Final residual = 4.4033878e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0141953e-06, Final residual = 1.4849026e-09, No Iterations 1
+Min/max T:0.01 0.010503947
+DICPCG:  Solving for p_rgh, Initial residual = 9.008947e-09, Final residual = 9.008947e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.008947e-09, Final residual = 9.008947e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.008947e-09, Final residual = 9.008947e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619022e-08, global = -1.3414959e-10, cumulative = -1.3887191e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.114827e-16, Final residual = 8.114827e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3821314e-14, Final residual = 4.3821314e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.4292952e-14, Final residual = 4.4292952e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1705253e-06, Final residual = 1.5975352e-09, No Iterations 1
+Min/max T:0.01 0.010503949
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505568e-09, Final residual = 9.6505568e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505568e-09, Final residual = 9.6505568e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505568e-09, Final residual = 9.6505568e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588956e-08, global = -7.0455969e-10, cumulative = -1.3894237e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.972208e-16, Final residual = 7.972208e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3548777e-14, Final residual = 4.3548777e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3927224e-14, Final residual = 4.3927224e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4553433e-06, Final residual = 1.7978379e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532285e-09, Final residual = 9.6532285e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532285e-09, Final residual = 9.6532285e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6532285e-09, Final residual = 9.6532285e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592992e-08, global = 1.2998386e-10, cumulative = -1.3892937e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042435953, Final residual = 1.1550129e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 540.83 s  ClockTime = 586 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+Time = 2000
+
+
+Solving for fluid region domain1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 8.1334396e-16, Final residual = 8.1334396e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3910235e-14, Final residual = 4.3910235e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3458547e-14, Final residual = 4.3458547e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4561254e-06, Final residual = 1.7976328e-09, No Iterations 1
+Min/max T:0.01 0.010503954
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233034e-09, Final residual = 9.8233034e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233034e-09, Final residual = 9.8233034e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.8233034e-09, Final residual = 9.8233034e-09, No Iterations 0
+time step continuity errors : sum local = 1.4850145e-08, global = -6.7301869e-11, cumulative = -1.389361e-06
+Min/max rho:145 145
+
+Solving for fluid region domain2
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9352409e-16, Final residual = 7.9352409e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4025767e-14, Final residual = 4.4025767e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3738463e-14, Final residual = 4.3738463e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.1738497e-06, Final residual = 1.598031e-09, No Iterations 1
+Min/max T:0.01 0.010503951
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647095e-09, Final residual = 8.8647095e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647095e-09, Final residual = 8.8647095e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 8.8647095e-09, Final residual = 8.8647095e-09, No Iterations 0
+time step continuity errors : sum local = 1.3400997e-08, global = -1.021891e-10, cumulative = -1.3894632e-06
+Min/max rho:145 145
+
+Solving for fluid region domain3
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9736359e-16, Final residual = 7.9736359e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3843431e-14, Final residual = 4.3843431e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3977926e-14, Final residual = 4.3977926e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.0143728e-06, Final residual = 1.4851386e-09, No Iterations 1
+Min/max T:0.01 0.010503947
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089599e-09, Final residual = 9.0089599e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089599e-09, Final residual = 9.0089599e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.0089599e-09, Final residual = 9.0089599e-09, No Iterations 0
+time step continuity errors : sum local = 1.3619022e-08, global = -1.3414962e-10, cumulative = -1.3895974e-06
+Min/max rho:145 145
+
+Solving for fluid region domain4
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9965863e-16, Final residual = 7.9965863e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.4092688e-14, Final residual = 4.4092688e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3964473e-14, Final residual = 4.3964473e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.170647e-06, Final residual = 1.597865e-09, No Iterations 1
+Min/max T:0.01 0.010503949
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505635e-09, Final residual = 9.6505635e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505635e-09, Final residual = 9.6505635e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.6505635e-09, Final residual = 9.6505635e-09, No Iterations 0
+time step continuity errors : sum local = 1.4588956e-08, global = -7.0455965e-10, cumulative = -1.3903019e-06
+Min/max rho:145 145
+
+Solving for fluid region domain5
+DILUPBiCGStab:  Solving for Ux, Initial residual = 7.9622294e-16, Final residual = 7.9622294e-16, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 4.3574159e-14, Final residual = 4.3574159e-14, No Iterations 0
+DILUPBiCGStab:  Solving for Uz, Initial residual = 4.3305687e-14, Final residual = 4.3305687e-14, No Iterations 0
+DILUPBiCGStab:  Solving for h, Initial residual = 2.4552656e-06, Final residual = 1.7981886e-09, No Iterations 1
+Min/max T:0.01 0.010503955
+DICPCG:  Solving for p_rgh, Initial residual = 9.653227e-09, Final residual = 9.653227e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.653227e-09, Final residual = 9.653227e-09, No Iterations 0
+DICPCG:  Solving for p_rgh, Initial residual = 9.653227e-09, Final residual = 9.653227e-09, No Iterations 0
+time step continuity errors : sum local = 1.4592995e-08, global = 1.2998385e-10, cumulative = -1.3901719e-06
+Min/max rho:145 145
+
+Solving for solid region solid_wall
+DICPCG:  Solving for h, Initial residual = 0.00042422315, Final residual = 1.1546267e-06, No Iterations 2
+Min/max T:0.010499713 0.010499894
+ExecutionTime = 541.14 s  ClockTime = 586 s
+
+    min/max/integ(chipFace) = -1.8493328e-05, -1.8493328e-05, -2.9589325e-08
+wallHeatFlux wallHeatFlux_solid write:
+    writing field wallHeatFlux
+surfaceFieldValue Q_chipFace write:
+    areaIntegrate(chipFace) of wallHeatFlux = -2.9589325e-08
+
+surfaceFieldValue T_int_solid write:
+    areaAverage(solid_wall_to_domain1) of T = 0.010499884
+
+surfaceFieldValue T_int_fluid write:
+    areaAverage(domain1_to_solid_wall) of T = 0.010499884
+
+fieldMinMax T_chip_max write:
+    min(T) = 0.010499713 in cell 44196 at location (0.00083333335 0.009 0.00195)
+    max(T) = 0.010499894 in cell 60948 at location (0.029166667 0.00185 0.003875)
+
+surfaceFieldValue T_outlet_fluid write:
+    weightedAverage(outlet) of T = 0.010499892
+
+surfaceFieldValue massFlowInlet write:
+    sum(inlet) of phi = -5.8e-07
+
+surfaceFieldValue p_inlet write:
+    areaAverage(inlet) of p_rgh = 0.00080780737
+
+surfaceFieldValue p_outlet write:
+    areaAverage(outlet) of p_rgh = 0
+
+End
+

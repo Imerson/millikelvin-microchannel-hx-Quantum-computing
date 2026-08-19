@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "2000/solid_wall";
+    object      wallHeatFlux;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 0 -3 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outlet
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    chipFace
+    {
+        type            calculated;
+        value           uniform -4.4500004e-06;
+    }
+    hotPlate
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outerY0
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outerY3
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    solid_wall_to_domain5
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    solid_wall_to_domain3
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    solid_wall_to_domain1
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    solid_wall_to_domain4
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    solid_wall_to_domain2
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //
