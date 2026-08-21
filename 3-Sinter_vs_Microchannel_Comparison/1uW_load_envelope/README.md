@@ -66,17 +66,8 @@ anchors the level at 15 µW, so it is the physically consistent estimate — a *
 justified by the CFD**, not a CFD output. It gives T_int = 11.000 mK in all six cases (structural:
 Q_model/(5ṁc_p) = 2 mK in every geometry, halved by back-conduction).
 
-## 5. How to describe this in the thesis
-At 15 µW the closure is **CFD-supplied** (T_int from the solver). At 1 µW it is **CFD-verified**
-(load, hydraulics and coupling from the solver; T_int from the energy balance, *because* the solver
-demonstrates the level is undetermined). Same model, same closure — different amount of it comes
-from the field solution. The bracket run is what turns "the CFD did not give T_int" into "the CFD
-*demonstrated* T_int is level-degenerate here" — a result, not an apology. Suggested caption
-replacement for `tab:hx-1uw`: *"…from the closure of Eq. (closure) at the energy-balance interface
-temperature (T_int = 11 mK), verified by CFD at 1 µW for load and hydraulics; a two-seed bracket
-shows the conjugate temperature level is undetermined at this load (Appendix)."*
 
-## 6. Honest caveats
+## 5. Honest caveats
 1. **T_int is not a solver output at 1 µW** — it is the energy-balance value. The bracket shows
    this is unavoidable, not a shortcut, but it should be stated as such.
 2. **f_adv is inherited from the 15 µW case** (~0.5). It is a Péclet-number property of the fixed-T
